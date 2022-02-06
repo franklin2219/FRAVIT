@@ -10,7 +10,7 @@ from sklearn import metrics
 from sklearn.neural_network._multilayer_perceptron import MLPClassifier
 
 if __name__ == '__main__':
-    film = pd.read_csv(r"/Users/srancescosasso/SimulatoreNoleggioAcquisto/dataset.csv")
+    film = pd.read_csv("/Users/srancescosasso/SimulatoreNoleggioAcquisto/dataset2.csv")
     print(film)
 '''''
     #divido il dataset in dati da usare per addestarre(x), e dati da predire(y)
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     x=x.astype('float')
 
     #prepare the cross-validation procedure
-    cv = KFold(n_splits=10, random_state=1, shuffle=True)
+    cv = KFold(n_splits=1ch0, random_state=1, shuffle=True)
     # create model
     model = MLPClassifier(10)
     # evaluate model
