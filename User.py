@@ -116,3 +116,47 @@ class Utente:
             genere_numerico = 26
         elif self.genere=="Cortometraggio":
             genere_numerico = 27
+
+    @classmethod
+    def richiestaFilm(self):
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        print("+                1)Animazione                                  +")
+        print("+                2)Drammatico                                  +")
+        print("+                3)Sentimentale                                +")
+        print("+                4)Commedia                                    +")
+        print("+                5)Poliziesco                                  +")
+        print("+                6)Thriller                                    +")
+        print("+                7)Avventura                                   +")
+        print("+                8)Documentario                                +")
+        print("+                9)Horror                                      +")
+        print("+                10)Azione                                     +")
+        print("+                11)Catastrofico                               +")
+        print("+                12)Western                                    +")
+        print("+                13)Spionaggio                                 +")
+        print("+                14)Biografico                                 +")
+        print("+                15)Musicale                                   +")
+        print("+                16)Fantasy                                    +")
+        print("+                17)Guerra                                     +")
+        print("+                18)Grottesco                                  +")
+        print("+                19)Gangster                                   +")
+        print("+                20)Mitologico                                 +")
+        print("+                21)Storico                                    +")
+        print("+                22)Noir                                       +")
+        print("+                23)Supereroi                                  +")
+        print("+                24)Biblico                                    +")
+        print("+                25)Sportivo                                   +")
+        print("+                26)Sperimentale                               +")
+        print("+                27)Cortometraggio                             +")
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        while self.genere_numerico <= 0 or self.genere_numerico >= 27:
+            self.genere_numerico=int(input("Inserisci il genere di Film/SerieTv che ti piacerebbe vedere : "))
+        while self.humor <= 0 or self.humor >=5:
+            self.humor=int(input("Inserisci il valore il livello di Humor tra 0 a 5 : "))
+        while  self.ritmo >= 6:
+            self.ritmo=int(input("Inserisci il valore il livello di ritmo tra 0 a 5 : "))
+        while self.impegno >= 6:
+            self.impegno=int(input("Inserisci il valore il livello di impegno tra 0 a 5 : "))
+        while self.tensione >= 6:
+            self.tensione=int(input("Inserisci il valore il livello di tensione tra 0 a 5 : "))
+        while self.voto >= 6:
+            self.erotismo=int(input("Inserisci il valore il livello di erotismo tra 0 a 5 : "))
