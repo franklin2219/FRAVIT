@@ -22,12 +22,11 @@ class Utente:
         durata=input(f"Definisci la durata del film/serieTV :")
         return durata
 
-
     def voto_critica(self):
         voto_critica=input("Inserisci il voto della critica (numerico) : ")
         return voto_critica
 
-    def voto_pubblico(sekf):
+    def voto_pubblico(self):
         votoPubblico=input("Inserisci il voto del pubblico (numerico) : ")
         return votoPubblico
 
