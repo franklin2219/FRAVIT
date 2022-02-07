@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     if scelta == '1':
         utente1.inserisciFilm()
-
+        prezzo.prediciPrezzo(utente1)
 
 
 

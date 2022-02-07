@@ -11,12 +11,15 @@ from sklearn import metrics
 from sklearn.neural_network._multilayer_perceptron import MLPClassifier
 
 class PrevisionePrezzo:
-    if __name__ == '__main__':
-        film = pd.read_csv("/Users/srancescosasso/SimulatoreNoleggioAcquisto/dataset_completo.csv",delimiter=";")
+    model = MLPClassifier()
+    film = pd.read_csv("dataset_completo.csv",delimiter=";")
+
+    def __init__(self):
+
 
         #divido il dataset in dati da usare per addestarre(x), e dati da predire(y)
-        y = film.prezzo
-        x = film[["voto_completo","anno_completo","durata_completa"]]
+        y = self.film.prezzo
+        x = self.film[["voto_completo","anno_completo","durata_completa"]]
         #definisco che sia x che y non sono interi
         y=y.astype('int')
         x=x.astype('int')
@@ -26,12 +29,12 @@ class PrevisionePrezzo:
         #divido x e y in modo da avere una parte per il training e una per il test
         x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=1)
 
-        model = MLPClassifier()
+
         #qui il modello apprende da solo
-        model.fit(x_train, y_train)
+        self.model.fit(x_train, y_train)
         #effettuo predizione sui dati
-        p_train = model.predict(x_train)#p_train contiene le predizioni(y) sui dati x di training
-        p_test = model.predict(x_test)#p_test contiene le predizioni(y) sui dati x di test
+        p_train = self.model.predict(x_train)#p_train contiene le predizioni(y) sui dati x di training
+        p_test = self.model.predict(x_test)#p_test contiene le predizioni(y) sui dati x di test
 
         #calcolo accuratezza del sistema
         print(f'L\'accuratezza reale sulle predizioni fatte e\' di {metrics.balanced_accuracy_score(y_test, p_test)}')
@@ -43,5 +46,8 @@ class PrevisionePrezzo:
         print('MAE test', mae_test)
         print('MAE train', mae_train)
 
-    pass
-
+    @classmethod
+    def prediciPrezzo(self,filmInserito):
+        pred_x = pd.DataFrame(data = {"voto_completo": [filmInserito.peso_voto], "anno_completo": [filmInserito.peso_anno], "durata_completa": [filmInserito.peso_durata]})
+        pred_y = self.model.predict(pred_x)
+        print(pred_y)
