@@ -1,4 +1,4 @@
-#Iterazione con l'utente per l'inserimento dei film nella piattaforma
+# Iterazione con l'utente per l'inserimento dei film nella piattaforma
 class Utente:
     titolo = ""
     titolo_italiano = ""
@@ -6,62 +6,124 @@ class Utente:
     genere = ""
     durata = 0
     voto = 0
-    humor = 0
-    ritmo = 0
-    impegno = 0
-    tensione = 0
-    erotismo = 0
+    humor = 6
+    ritmo = 6
+    impegno = 6
+    tensione = 6
+    erotismo = 6
     peso_anno = 0
     peso_voto = 0
     peso_durata = 0
     genere_numerico = 0
 
     @classmethod
-    def inserisciFilm(self):
-        self.titolo=input(f"Inserisci il titolo originale del film/serieTV :")
-        self.titolo_italiano=input(f"Inserisci il titolo tradotto in italiano :")
-        while self.anno <= 1885 or self.anno >= 2023:
-            self.anno=int(input("Inserisci l'anno di pubblicazione del film/serieTV :"))
-        self.genere=input(f"Inserisci il genere del film/serieTV :")
-        while self.durata >= 180 or self.durata <= 30:
-            self.durata=int(input("Definisci la durata del film/serieTV :"))
-        while self.voto <=1 or self.voto >= 10:
-            self.voto=int(input("Inserisci il voto (un numero da 1 a 10) :"))
-        while self.humor <=0 or self.humor >= 5:
-            self.humor=int(input("Inserisci il valore il livello di Humor tra 0 a 5 : "))
-        while self.ritmo <=0 or self.ritmo >= 5:
-            self.ritmo=int(input("Inserisci il valore il livello di ritmo tra 0 a 5 : "))
-        while self.impegno <=0 or self.impegno >= 5:
-            self.impegno=int(input("Inserisci il valore il livello di impegno tra 0 a 5 : "))
-        while self.tensione <=0 or self.tensione >= 5:
-            self.tensione=int(input("Inserisci il valore il livello di tensione tra 0 a 5 : "))
-        while self.erotismo <=0 or self.voto >= 5:
-            self.erotismo=int(input("Inserisci il valore il livello di erotismo tra 0 a 5 : "))
+    def inseriscifilm(cls):
+        cls.titolo = input(f"Inserisci il titolo originale del film/serieTV :")
+        cls.titolo_italiano = input(f"Inserisci il titolo tradotto in italiano :")
+        while cls.anno <= 1885 or cls.anno >= 2023:
+            cls.anno = int(input("Inserisci l'anno di pubblicazione del film/serieTV :"))
+        cls.genere = input(f"Inserisci il genere del film/serieTV :")
+        while cls.durata > 240 or cls.durata < 1:
+            cls.durata = int(input("Definisci la durata del film/serieTV :"))
+        while cls.voto < 1 or cls.voto > 10:
+            cls.voto = int(input("Inserisci il voto (un numero da 1 a 10) :"))
+        while cls.humor < 0 or cls.humor > 5:
+            cls.humor = int(input("Inserisci il valore il livello di Humor tra 0 a 5 : "))
+        while cls.ritmo < 0 or cls.ritmo > 5:
+            cls.ritmo = int(input("Inserisci il valore il livello di ritmo tra 0 a 5 : "))
+        while cls.impegno < 0 or cls.impegno > 5:
+            cls.impegno = int(input("Inserisci il valore il livello di impegno tra 0 a 5 : "))
+        while cls.tensione < 0 or cls.tensione > 5:
+            cls.tensione = int(input("Inserisci il valore il livello di tensione tra 0 a 5 : "))
+        while cls.erotismo < 0 or cls.erotismo > 5:
+            cls.erotismo = int(input("Inserisci il valore il livello di erotismo tra 0 a 5 : "))
 
-        if self.anno >= 2021:
-            self.peso_anno = 4
-        elif self.anno >= 2012:
-            self.peso_anno = 3
-        elif self.anno >= 2002:
-            self.peso_anno = 2
-        else: self.peso_anno = 1
+        if cls.anno >= 2021:
+            cls.peso_anno = 4
+        elif cls.anno >= 2012:
+            cls.peso_anno = 3
+        elif cls.anno >= 2002:
+            cls.peso_anno = 2
+        else:
+            cls.peso_anno = 1
 
-        if self.durata < 90:
-            self.peso_durata = 1
-        elif self.durata < 120:
-            self.peso_durata = 2
-        elif self.durata < 140:
-            self.peso_durata = 3
-        else: self.peso_durata = 4
+        if cls.durata < 90:
+            cls.peso_durata = 1
+        elif cls.durata < 120:
+            cls.peso_durata = 2
+        elif cls.durata < 140:
+            cls.peso_durata = 3
+        else:
+            cls.peso_durata = 4
 
-        if self.voto >= 8:
-            self.peso_voto = 4
-        elif self.voto >= 5:
-            self.peso_voto = 3
-        elif self.voto >= 3:
-            self.peso_voto = 2
-        else: self.peso_voto = 1
+        if cls.voto >= 8:
+            cls.peso_voto = 4
+        elif cls.voto >= 5:
+            cls.peso_voto = 3
+        elif cls.voto >= 3:
+            cls.peso_voto = 2
+        else:
+            cls.peso_voto = 1
 
+    @classmethod
+    def richiestafilm(cls, self):
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        print("+                  1)Animazione                                    +")
+        print("+                  2)Drammatico                                    +")
+        print("+                  3)Sentimentale                                  +")
+        print("+                  4)Commedia                                      +")
+        print("+                  5)Poliziesco                                    +")
+        print("+                  6)Thriller                                      +")
+        print("+                  7)Avventura                                     +")
+        print("+                  8)Documentario                                  +")
+        print("+                  9)Horror                                        +")
+        print("+                  10)Azione                                       +")
+        print("+                  11)Catastrofico                                 +")
+        print("+                  12)Western                                      +")
+        print("+                  13)Spionaggio                                   +")
+        print("+                  14)Biografico                                   +")
+        print("+                  15)Musicale                                     +")
+        print("+                  16)Fantasy                                      +")
+        print("+                  17)Guerra                                       +")
+        print("+                  18)Grottesco                                    +")
+        print("+                  19)Gangster                                     +")
+        print("+                  20)Mitologico                                   +")
+        print("+                  21)Storico                                      +")
+        print("+                  22)Noir                                         +")
+        print("+                  23)Supereroi                                    +")
+        print("+                  24)Biblico                                      +")
+        print("+                  25)Sportivo                                     +")
+        print("+                  26)Sperimentale                                 +")
+        print("+                  27)Cortometraggio                               +")
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        while self.genere_numerico <= 0 or self.genere_numerico >= 28:
+            self.genere_numerico = int(input("Inserisci il genere di Film/SerieTv che ti piacerebbe vedere :"))
+
+        while self.humor < 0 or self.humor > 5:
+            self.humor = int(input("Inserisci il valore il livello di Humor tra 0 a 5 :"))
+
+        while self.ritmo < 0 or self.ritmo > 5:
+            self.ritmo = int(input("Inserisci il valore il livello di ritmo tra 0 a 5 :"))
+
+        while self.impegno < 0 or self.impegno > 5:
+            self.impegno = int(input("Inserisci il valore il livello di impegno tra 0 a 5 :"))
+
+        while self.tensione < 0 or self.tensione > 5:
+            self.tensione = int(input("Inserisci il valore il livello di tensione tra 0 a 5 :"))
+
+        while self.erotismo < 0 or self.erotismo > 5:
+            self.erotismo = int(input("Inserisci il valore il livello di erotismo tra 0 a 5 :"))
+
+        while self.peso_anno < 1 or self.peso_anno > 4:
+            print("Inserisci il periodo cinematografico che preferisci:")
+            print("1: piu' di 20 anni fa")
+            print("2: dal 2002 al 2012")
+            print("3: dal 2012 al 2021")
+            print("4: dal 2021 in poi")
+            self.peso_anno = int(input())
+
+
+'''
         if self.genere=="Animazione":
             genere_numerico = 1
         elif self.genere=="Drammatico":
@@ -116,47 +178,4 @@ class Utente:
             genere_numerico = 26
         elif self.genere=="Cortometraggio":
             genere_numerico = 27
-
-    @classmethod
-    def richiestaFilm(self):
-        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        print("+                1)Animazione                                  +")
-        print("+                2)Drammatico                                  +")
-        print("+                3)Sentimentale                                +")
-        print("+                4)Commedia                                    +")
-        print("+                5)Poliziesco                                  +")
-        print("+                6)Thriller                                    +")
-        print("+                7)Avventura                                   +")
-        print("+                8)Documentario                                +")
-        print("+                9)Horror                                      +")
-        print("+                10)Azione                                     +")
-        print("+                11)Catastrofico                               +")
-        print("+                12)Western                                    +")
-        print("+                13)Spionaggio                                 +")
-        print("+                14)Biografico                                 +")
-        print("+                15)Musicale                                   +")
-        print("+                16)Fantasy                                    +")
-        print("+                17)Guerra                                     +")
-        print("+                18)Grottesco                                  +")
-        print("+                19)Gangster                                   +")
-        print("+                20)Mitologico                                 +")
-        print("+                21)Storico                                    +")
-        print("+                22)Noir                                       +")
-        print("+                23)Supereroi                                  +")
-        print("+                24)Biblico                                    +")
-        print("+                25)Sportivo                                   +")
-        print("+                26)Sperimentale                               +")
-        print("+                27)Cortometraggio                             +")
-        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        while self.genere_numerico <= 0 or self.genere_numerico >= 27:
-            self.genere_numerico=int(input("Inserisci il genere di Film/SerieTv che ti piacerebbe vedere : "))
-        while self.humor <= 0 or self.humor >=5:
-            self.humor=int(input("Inserisci il valore il livello di Humor tra 0 a 5 : "))
-        while  self.ritmo >= 6:
-            self.ritmo=int(input("Inserisci il valore il livello di ritmo tra 0 a 5 : "))
-        while self.impegno >= 6:
-            self.impegno=int(input("Inserisci il valore il livello di impegno tra 0 a 5 : "))
-        while self.tensione >= 6:
-            self.tensione=int(input("Inserisci il valore il livello di tensione tra 0 a 5 : "))
-        while self.voto >= 6:
-            self.erotismo=int(input("Inserisci il valore il livello di erotismo tra 0 a 5 : "))
+'''

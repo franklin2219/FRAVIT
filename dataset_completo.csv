@@ -14752,7 +14752,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 23888;Laissez-passer;Laissez-passer;2001;Commedia;170;7,3;1;2;4;2;1;8;1;4;3;4
 23890;Tmavomodry svet;Dark Blue World;2001;Drammatico;112;7,1;1;2;2;2;2;6;1;2;3;2
 23891;Le Grand Bleu;Le Grand Bleu;1988;Avventura;119;5,7;1;2;0;2;0;6;1;2;3;7
-23892;Monsieur Batignole;Monsieur Batignole;2002;;100;6,9;2;3;4;3;0;7;2;2;3;
 23893;À la folie... pas du tout;M'ama non m'ama;2002;Commedia;92;6,6;1;2;0;1;0;7;2;2;3;4
 23895;La bande à Bonnot;La banda Bonnot;1968;Poliziesco;90;8;0;2;1;2;0;7;1;2;4;5
 23896;Greenwich Village;Samba d'amore;1944;Commedia;82;5,8;1;2;0;0;0;5;1;1;3;4
@@ -15201,7 +15200,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 24612;High Crimes;High Crimes. Crimini di Stato;2002;Thriller;115;5,5;0;2;0;2;0;7;2;2;3;6
 24613;Sotto gli occhi di tutti;Sotto gli occhi di tutti;2003;Commedia;86;6;1;2;1;1;0;6;2;1;3;4
 24614;Ora o mai più;Ora o mai più;2003;Drammatico;96;5,1;1;2;3;2;0;7;2;2;3;2
-24615;Il posto dell'anima;Il posto dell'anima;2002;;106;7,1;3;3;4;3;1;7;2;2;3;
 24616;Cecilia;Cecilia;2001;Drammatico;85;4,6;1;1;1;1;0;4;1;1;2;2
 24618;Piazza delle Cinque Lune;Piazza delle Cinque Lune;2003;Drammatico;127;4,6;1;3;4;3;1;7;2;3;2;2
 24619;Good bye Lenin!;Good bye Lenin!;2003;Commedia;121;7,4;2;2;2;2;0;8;2;3;3;4
@@ -15247,7 +15245,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 24676;Un difetto di famiglia;Un difetto di famiglia;2002;Commedia;90;5,9;2;2;0;0;0;7;2;2;3;4
 24679;La vispa Teresa;La vispa Teresa;1943;Commedia;84;5;2;2;0;0;0;5;1;1;3;4
 24680;The Soul of a Man;The Blues - L'anima di un uomo;2002;Documentario;100;7,1;1;2;3;0;0;7;2;2;3;8
-24685;Yossi & Jagger;Yossi and Jagger;2002;;65;7,4;2;2;3;1;2;6;2;1;3;
 24686;City of Ghosts;City of Ghosts;2002;Thriller;116;5,4;0;2;1;1;0;7;2;2;3;6
 24688;No Looking Back;No Looking Back;1998;Commedia;96;6;1;2;0;1;1;6;1;2;3;4
 24690;Swimfan;Swimfan;2002;Thriller;85;4,1;0;2;0;1;1;5;2;1;2;6
@@ -15299,7 +15296,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 24774;La meglio gioventù;La meglio gioventù;2003;Drammatico;366;7,8;1;2;3;3;1;9;2;4;3;2
 24775;Fellini: je suis un grand menteur;Fellini: sono un gran bugiardo;2002;Documentario;105;7,6;2;2;1;0;1;7;2;2;3;8
 24776;Identity;Identità;2003;Thriller;87;6,8;1;3;2;2;1;6;2;1;3;6
-24778;Cradle Will Rock;Il prezzo della libertà;1999;;100;6,4;1;2;2;1;0;6;1;2;3;
 24779;Bringing Down the House;Un ciclone in casa;2003;Commedia;100;6,6;2;2;0;0;1;7;2;2;3;4
 24780;Double Frame;Le due facce della medaglia;2000;Thriller;93;3,5;0;2;0;2;0;5;1;2;2;6
 24781;Little House on the Prairie;La casa nella prateria;1974;Avventura;96;7,4;0;0;0;0;0;6;1;2;3;7
@@ -15307,7 +15303,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 24789;Error in Judgement;Errore di giudizio;1998;Thriller;90;7;0;2;0;1;0;6;1;2;3;6
 24790;Kaze no naka no mendori;Gallina nel vento;1948;Drammatico;84;7,5;0;2;3;1;0;5;1;1;3;2
 24791;The Westerner;L'uomo del West;1940;Western;100;7,8;1;2;0;2;0;6;1;2;3;12
-24792;Bord de mer;Bord de mer - In riva al mare;2002;;90;5,9;2;3;0;1;2;7;2;2;3;
 24793;Tristano e Isotta;Tristano e Isotta;1998;Avventura;115;6,1;0;2;0;1;0;6;1;2;3;7
 24795;Kangaroo Jack;Kangaroo Jack - Prendi i soldi e salta;2003;Commedia;89;4,2;1;2;0;0;0;5;2;1;2;4
 24796;Tandem;Tandem;1987;Commedia;86;6,4;1;2;0;1;0;5;1;1;3;4
@@ -15523,7 +15518,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 25185;Paris nous appartient;Paris nous appartient;1960;Drammatico;131;7,4;1;2;2;1;0;7;1;3;3;2
 25186;Casa de los Babys;Casa de los Babys;2003;Drammatico;96;8;0;0;0;0;0;8;2;2;4;2
 25187;Vacanze in val Trebbia;Vacanze in val Trebbia;1980;Documentario;46;4,5;0;2;2;0;0;4;1;1;2;8
-25188;Liberi;Liberi;2003;;113;5;1;2;1;1;0;7;2;2;3;
 25189;Bande à part;Bande à part;1964;Noir;97;7,7;2;3;4;2;2;6;1;2;3;22
 25190;Last Life in the Universe;Last Life in the Universe;2003;Drammatico;112;7,6;0;0;0;0;0;7;2;2;3;2
 25191;Rosamunde Pilcher: Blumen im Regen;Rosamunde Pilcher: Fiori nella pioggia;2001;Drammatico;90;5;0;2;0;2;0;6;1;2;3;2
@@ -15641,7 +15635,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 25355;Purgatory;Purgatory;1999;Western;94;7;0;2;0;2;0;6;1;2;3;12
 25356;A Bright Shining Lie;La guerra dei bugiardi;1998;Drammatico;118;5,7;0;2;0;2;0;6;1;2;3;2
 25357;Return of the Frontiersman;La congiura dei rinnegati;1950;Western;74;4,1;0;2;0;1;0;4;1;1;2;12
-25358;SubUrbia;Suburbia;1996;;121;7,1;1;2;0;2;1;7;1;3;3;
 25359;Warning Shot;Agente 4K2 chiede aiuto;1967;Poliziesco;100;6,5;0;2;0;1;0;6;1;2;3;5
 25360;Le dernier combat;Le dernier combat;1982;Fantasy;92;5,9;1;1;0;1;1;6;1;2;3;16
 25361;Sacco e Vanzetti;Sacco e Vanzetti;1971;Drammatico;111;7,6;1;4;4;4;1;6;1;2;3;2
@@ -15869,7 +15862,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 25706;El espíritu de la colmena;Lo spirito dell'alveare;1973;Drammatico;97;8,5;1;1;3;2;1;7;1;2;4;2
 25708;Antonia - Zwischen Liebe und Macht;Antonia - Tra amore e potere;2001;Drammatico;180;7,3;0;2;0;1;0;8;1;4;3;2
 25710;Durango Kids;I piccoli eroi del West;1999;Western;85;5;0;2;0;1;0;5;1;1;3;12
-25713;It's a Very Merry Muppet Christmas Movie;Il super Buon Natale dei Muppet;2002;;100;7,3;3;2;0;0;0;7;2;2;3;
 25714;The Shu;In Hell - Nell'inferno;2003;Azione;96;4,5;0;2;0;2;0;6;2;2;2;10
 25718;L'arbre de Noël;L'albero di Natale;1969;Drammatico;110;7,4;0;2;0;1;0;6;1;2;3;2
 25722;American Outlaws;Gli ultimi fuorilegge;2001;Western;94;5,4;0;2;0;1;0;6;1;2;3;12
@@ -15894,7 +15886,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 25760;In the Light of the Moon;Ed Gein - Il macellaio di Plainfield;2000;Horror;89;4,9;0;0;0;0;0;4;1;1;2;9
 25762;71 Fragmente einer chronologie des Zufalls;71 frammenti di una cronologia del caso;1994;Drammatico;96;7,2;0;3;2;3;0;6;1;2;3;2
 25765;True Blue;L'anello mancante;2001;Thriller;101;5,1;0;2;0;1;0;6;1;2;3;6
-25767;L'autre;L'altro;1999;;102;7,1;2;3;1;1;0;6;1;2;3;
 25772;Minoes;Minouche la gatta;2001;Commedia;86;6,5;2;2;0;1;1;5;1;1;3;4
 25777;Secret Santa;Il mistero di Hamden;2003;Commedia;100;7;1;2;0;0;0;7;2;2;3;4
 25779;Le retour du fils prodigue/Humiliés;Il ritorno del figliol prodigo/Umiliati;2003;Drammatico;64;7;0;1;4;1;0;6;2;1;3;2
@@ -16552,7 +16543,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 26929;Walking Tall;A testa alta;2004;Azione;87;4,5;2;4;2;2;0;5;2;1;2;10
 26930;The Chronicles of Riddick;The Chronicles of Riddick;2004;Fantasy;115;5,4;1;3;0;2;0;7;2;2;3;16
 26931;Serva e padrona;Serva e padrona;2003;Drammatico;93;6;0;2;3;1;1;7;2;2;3;2
-26932;Nan va koutcheh/Zang-e tafrih/Dow rahehal baraye yek massaleh/Hamsarayan;I corti di Abbas Kiarostami;1982;;43;7,8;1;2;3;1;0;5;1;1;3;
 26934;Most Xtreme Primate;Jack il ciclone;2003;Avventura;83;4,5;1;2;0;0;0;5;2;1;2;7
 26936;Inugami;Inugami - Le divinità maligne;2001;Drammatico;106;7,3;0;0;0;0;0;6;1;2;3;2
 26941;Villmark;La foresta misteriosa;2003;Azione;85;5,4;0;1;0;2;0;6;2;1;3;10
@@ -16778,7 +16768,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 27364;Girl's Night;Girl's Night. Le ragazze della notte;1998;Commedia;102;5,4;1;2;0;1;0;6;1;2;3;4
 27369;Cats;Cats;1998;Musicale;120;6,2;1;2;0;0;0;7;1;3;3;15
 27374;Igby Goes Down;Igby Goes Down;2002;Commedia;97;6;2;2;0;0;0;7;2;2;3;4
-27376;Une visite au Louvre;Una visita al Louvre;2004;;44;7,6;0;1;4;0;0;6;2;1;3;
 27377;Walk On Water;Camminando sull'acqua;2004;Drammatico;104;6,9;0;1;4;2;1;7;2;2;3;2
 27378;El Cid la leyenda;El Cid - La leggenda;2003;Animazione;90;4,3;1;2;0;1;0;6;2;2;2;1
 27379;A Different Loyalty;A Different Loyalty - Codice Homer;2004;Thriller;99;5,1;0;2;1;2;1;7;2;2;3;6
@@ -17124,7 +17113,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 27965;Culloden;L'ultimo degli Stuart - La battaglia di Culloden;1964;Guerra;72;9;0;0;0;0;0;6;1;1;4;17
 27966;Campanadas de medianoche;Falstaff;1966;Drammatico;119;8,9;1;1;1;0;0;7;1;2;4;2
 27967;Filming Othello;Filming Othello;1978;Documentario;90;7,9;0;0;0;0;0;6;1;2;3;8
-27969;Wiesele;Le nozze;1972;;118;7,8;0;0;0;0;0;6;1;2;3;
 27970;Krajobraz po bitwe;Paesaggio dopo la battaglia;1970;Drammatico;109;8,9;0;0;0;0;0;7;1;2;4;2
 27971;Danton;Danton;1982;Drammatico;136;7,3;0;3;3;3;0;7;1;3;3;2
 27972;Popiól i diament;Cenere e diamanti;1958;Drammatico;104;7,8;0;0;0;0;0;6;1;2;3;2
@@ -17212,7 +17200,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 28089;Nude... si muore;Nude... si muore;1968;Horror;98;4,7;0;2;0;3;1;5;1;2;2;9
 28090;Il commissario di ferro;Il commissario di ferro;1978;Poliziesco;83;5,1;0;2;0;2;0;5;1;1;3;5
 28091;La romana;La romana;1988;Drammatico;241;5,3;0;2;1;2;0;8;1;4;3;2
-28093;König Dame Bube;Un ospite gradito... per mia moglie;1972;;88;6,5;1;2;0;2;0;5;1;1;3;
 28096;Anna di Brooklyn;Anna di Brooklyn;1958;Commedia;110;4,7;0;0;0;0;0;5;1;2;2;4
 28097;Alina;Alina;1950;Drammatico;90;4,5;0;2;0;2;0;5;1;2;2;2
 28098;Lan yu;Lan yu;2001;Drammatico;86;6;0;2;0;2;2;5;1;1;3;2
@@ -17520,7 +17507,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 28854;Jiushi liuliu de ta;Cute Girl;1980;Drammatico;90;5,9;0;0;0;0;0;6;1;2;3;2
 28855;Feng er ti ta cai;Vento spensierato;1981;Drammatico;90;6,3;0;0;0;0;0;6;1;2;3;2
 28856;Zai na hepan qingcao qing;The Green Green Grass of Home;1983;Drammatico;90;7;1;2;2;0;0;6;1;2;3;2
-28859;Dokfa nai meuman;Mysterious Object at Noon;2000;;83;6,5;0;0;0;0;0;5;1;1;3;
 28874;Itsuka giragirasuruhi;Tokyo Gang;1992;Azione;108;3,3;1;3;0;2;1;5;1;2;2;10
 28877;Batoru rowaiaru;Battle Royale;2000;Azione;114;7,1;1;2;2;2;0;6;1;2;3;10
 28878;Batoru rowaiaru II: Rekuiemu;Battle Royale II;2003;Azione;134;7,3;1;2;2;1;1;8;2;3;3;10
@@ -17569,7 +17555,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 28955;Hollywood Flies;Hollywood Flies;2005;Azione;94;4,4;0;2;1;0;0;6;2;2;2;10
 28956;Kingdom of Heaven;Le Crociate;2005;Storico;145;6,7;1;3;2;3;1;9;2;4;3;21
 28957;Stage Beauty;Stage Beauty;2004;Commedia;110;5,8;1;2;0;1;1;7;2;2;3;4
-28958;The Station Agent;The Station Agent;2003;;88;7,2;1;1;2;1;0;6;2;1;3;
 28959;Feux rouges;Luci nella notte;2004;Noir;103;7;0;2;1;3;0;7;2;2;3;22
 28960;Miss Congeniality 2: Armed and Fabulous;Miss Fbi. Infiltrata speciale;2005;Commedia;115;3,6;2;2;0;0;1;6;2;2;2;4
 28961;Around the Bend;Dietro l'angolo;2004;Commedia;85;6,9;2;2;1;0;0;6;2;1;3;4
@@ -17595,8 +17580,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 29058;Un uomo dalla pelle dura;Un uomo dalla pelle dura;1971;Drammatico;83;3,9;0;0;0;0;0;4;1;1;2;2
 29059;Kid Galahad;L'uomo di bronzo;1937;Drammatico;102;7,8;0;3;2;2;0;6;1;2;3;2
 29061;Maladonna;Maladonna;1984;Drammatico;84;2,9;0;2;0;1;2;3;1;1;1;2
-29064;Marija krest'janskaja elegija;Maria elegia contadina;1988;;41;7,5;0;0;0;0;0;5;1;1;3;
-29066;Elegija Rossii;Elegia russa;1992;;68;8,2;0;0;0;0;0;6;1;1;4;
 29068;Peterburgskij dnevnik - Mozart Requiem;Diario di San Pietroburgo - Mozart Requiem;2004;Documentario;71;7,4;0;3;2;0;0;6;2;1;3;8
 29071;The Strong Man;L'uomo più forte del mondo - La grande sparata;1926;Commedia;75;6,6;0;0;0;0;0;5;1;1;3;4
 29072;The Ape Man;L'uomo scimmia;1943;Horror;64;5,8;0;2;0;2;0;5;1;1;3;9
@@ -17637,7 +17620,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 29159;Les dimanches de Ville d'Avray;L'uomo senza passato;1962;Drammatico;110;7,6;0;0;0;0;0;6;1;2;3;2
 29160;Monte Walsh;Monty Walsh un uomo duro a morire;1970;Western;106;7,3;0;0;0;0;0;6;1;2;3;12
 29166;Wonder Man;L'uomo meraviglia;1945;Commedia;98;5,3;3;3;2;2;1;6;1;2;3;4
-29171;Povinnost';Confessione;1998;;210;7,8;0;1;4;1;0;8;1;4;3;
 29174;Le sauvage;Il mio uomo è un selvaggio;1975;Commedia;103;6,3;0;0;0;0;0;6;1;2;3;4
 29176;L'uomo della strada fa giustizia;L'uomo della strada fa giustizia;1975;Drammatico;100;5,3;0;2;1;2;0;6;1;2;3;2
 29185;Diez mil dolares vivo o muerto;L'uomo dalla pistola d'oro;1966;Western;84;5;0;0;0;0;0;5;1;1;3;12
@@ -17834,7 +17816,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 29707;Lo straniero;Lo straniero;1967;Drammatico;104;6,2;0;2;1;1;0;6;1;2;3;2
 29708;Nättlek;Giochi di notte;1966;Drammatico;96;6,3;0;2;0;1;2;6;1;2;3;2
 29710;Il fidanzamento;Il fidanzamento;1975;Commedia;100;4,8;0;0;0;0;0;5;1;2;2;4
-29712;Smirennaja zizn';Vita umile;1997;;76;7,9;0;1;4;1;0;5;1;1;3;
 29714;Nur Anfänger heiraten;Il posto delle farfalle;2003;Commedia;92;5,7;1;2;1;1;0;7;2;2;3;4
 29715;Koma;Koma;2004;Horror;88;4,8;0;0;0;0;0;5;2;1;2;9
 29716;Fat Albert;Il mio grasso grosso amico Albert;2004;Commedia;93;4,8;1;2;0;0;0;6;2;2;2;4
@@ -18041,7 +18022,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 30282;Chain of Command;Avamposto cinese;1994;Azione;98;6,3;0;0;0;0;0;6;1;2;3;10
 30286;Poslednij poezd;L'ultimo treno;2003;Drammatico;82;7,5;0;2;3;2;0;6;2;1;3;2
 30287;Cave In;Intrappolati al centro della Terra;2003;Azione;120;3,3;0;0;0;0;0;7;2;3;2;10
-30288;Beautiful;Beautiful - Una vita da miss;2000;;112;3;1;2;0;0;0;5;1;2;2;
 30289;Ladri ma non troppo;Ladri ma non troppo;2003;Commedia;90;4,3;1;2;0;1;0;6;2;2;2;4
 30291;Rough Air: Danger on Flight 534;Vuoto d'aria;2001;Thriller;90;6;0;2;0;1;0;6;1;2;3;6
 30294;Wedding Crashers;2 single a nozze;2005;Commedia;119;6,1;2;2;1;1;1;7;2;2;3;4
@@ -18289,7 +18269,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 30926;Count the Hours;Le ore sono contate;1953;Drammatico;75;6,5;0;2;1;2;0;5;1;1;3;2
 30932;The Window;La finestra socchiusa;1949;Drammatico;73;6,5;0;0;0;0;0;5;1;1;3;2
 30933;Mickey's Twice Upon a Christmas;Topolino strepitoso Natale;2004;Animazione;68;6,5;0;0;0;0;0;6;2;1;3;1
-30938;The Muppets' Wizard of Oz;I Muppet e il mago di Oz;2005;;90;4,4;0;0;0;0;0;6;2;2;2;
 30939;Airmail;L'aeroporto del deserto;1932;Drammatico;85;7;0;2;1;2;0;5;1;1;3;2
 30940;Singapore;Singapore;1947;Drammatico;76;6;0;2;0;2;1;5;1;1;3;2
 30941;Heartless;Il dolce profumo dell'inganno;2005;Drammatico;83;5;0;2;0;2;0;6;2;1;3;2
@@ -18385,7 +18364,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 31128;Le farò da padre;Le farò da padre;1974;Drammatico;100;5,8;1;1;1;0;1;6;1;2;3;2
 31134;A cavallo della tigre;A cavallo della tigre;1961;Commedia;110;7,6;2;2;1;1;0;6;1;2;3;4
 31135;La bugiarda;La bugiarda;1965;Commedia;103;5,6;2;1;1;0;1;6;1;2;3;4
-31136;L'ingorgo - Una storia impossibile;L'ingorgo - Una storia impossibile;1978;;126;7;1;2;2;2;1;7;1;3;3;
 31137;Wicker Park;Appuntamento a Wicker Park;2004;Drammatico;114;7,5;0;2;0;2;1;7;2;2;3;2
 31140;The Black Dahlia;Black Dahlia;2006;Noir;120;6,1;0;2;0;2;1;8;2;3;3;22
 31141;Oro nero;Oro nero;1942;Drammatico;93;4,8;0;2;0;1;1;5;1;2;2;2
@@ -20004,7 +19982,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 36259;Uccidi Django... uccidi per primo!!!;Uccidi Django... uccidi per primo!!!;1971;Western;83;2,5;0;0;0;0;0;3;1;1;1;12
 36264;3 pistole contro Cesare;3 pistole contro Cesare;1966;Western;95;5;0;0;0;0;0;6;1;2;3;12
 36266;Tres dólares de plomo;Tre dollari di piombo;1965;Western;89;3;0;0;0;0;0;4;1;1;2;12
-36267;Pumhaeng zero;Conduct Zero;2002;;99;6;1;2;1;1;0;7;2;2;3;
 36271;Thriller - en grym film;Thriller - A Cruel Picture;1973;Thriller;104;5,7;0;0;0;0;0;6;1;2;3;6
 36272;Il suo nome faceva tremare... Interpol in allarme;Il suo nome faceva tremare... Interpol in allarme;1973;Gangster;100;6,8;1;2;0;2;1;6;1;2;3;19
 36288;L'ultima preda del vampiro;L'ultima preda del vampiro;1961;Horror;82;4;0;0;0;0;0;4;1;1;2;9
@@ -20154,7 +20131,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 36715;The Good German;Intrigo a Berlino;2006;Spionaggio;105;5,8;0;2;2;2;0;7;2;2;3;13
 36716;La cena per farli conoscere;La cena per farli conoscere;2006;Commedia;99;5,5;1;1;1;1;0;7;2;2;3;4
 36717;Alpha Dog;Alpha Dog;2006;Drammatico;117;6,3;0;3;3;2;1;7;2;2;3;2
-36718;Julian Po;In viaggio verso il mare;1997;;80;6,3;2;2;0;1;0;5;1;1;3;
 36719;The Night Listener;Una voce nella notte;2006;Thriller;86;5,4;2;2;4;4;0;6;2;1;3;6
 36720;Night at the Museum;Una notte al museo;2006;Commedia;108;5,7;3;3;0;0;0;7;2;2;3;4
 36721;Miss Potter;Miss Potter;2006;Biografico;92;5,5;1;2;0;1;0;7;2;2;3;14
@@ -20501,7 +20477,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 37257;Nessuna qualità agli eroi;Nessuna qualità agli eroi;2007;Drammatico;102;6,4;0;2;2;3;2;7;2;2;3;2
 37258;Michael Clayton;Michael Clayton;2007;Thriller;119;6,9;0;2;2;1;0;7;2;2;3;6
 37260;Nightwatching;Nightwatching;2007;Biografico;134;7,3;0;0;0;0;0;8;2;3;3;14
-37261;En la ciudad de Sylvia;En la ciudad de Sylvia;2007;;90;3,7;0;0;0;0;0;6;2;2;2;
 37262;In the Valley of Elah;Nella valle di Elah;2007;Drammatico;120;7,3;0;3;3;2;0;8;2;3;3;2
 37266;La Graine e le mulet;Cous cous;2007;Drammatico;151;6,9;1;2;2;2;1;9;2;4;3;2
 37267;Se Jie;Lussuria. Seduzione e tradimento;2007;Drammatico;135;7,1;0;1;1;3;4;8;2;3;3;2
@@ -20774,7 +20749,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 37716;Malevolence;Malevolence;2004;Thriller;90;4,8;0;2;0;1;0;6;2;2;2;6
 37718;Julia;Julia;2008;Thriller;144;6,3;0;2;1;2;0;9;2;4;3;6
 37721;Tropa de Elite;Tropa de Elite;2007;Azione;115;7,5;0;3;2;3;0;7;2;2;3;10
-37724;A vot' bon coeur;A vot' bon coeur;2004;;93;5,9;2;2;1;2;0;7;2;2;3;
 37725;Krippendorf's Tribe;Cercasi disperatamente tribù;1998;Commedia;94;4,2;1;2;0;0;0;5;1;2;2;4
 37726;Solar Strike;Solar Attack;2005;Fantasy;91;3,8;1;2;0;1;0;6;2;2;2;16
 37727;Suzanne's Diary for Nicholas;Il diario di Suzanne per Nicholas;2005;Drammatico;120;5;0;2;0;1;0;8;2;3;3;2
@@ -20818,7 +20792,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 37794;Kilómetro 31;Km 31;2006;Horror;103;5,1;0;2;0;3;0;7;2;2;3;9
 37796;Lisztomania;Lisztomania;1975;Musicale;103;7,1;0;0;0;0;0;6;1;2;3;15
 37797;The Falls;The Falls;1980;Sperimentale;195;7;2;2;3;0;0;8;1;4;3;26
-37798;L'Immoralità;L'Immoralità;1978;;109;6,6;0;0;0;0;0;6;1;2;3;
 37799;Haze;Haze;2005;Cortometraggio;49;7,4;1;2;2;2;1;6;2;1;3;27
 37800;Orgasmo;Orgasmo;1969;Drammatico;91;6,9;0;2;0;2;1;6;1;2;3;2
 37803;Joe Strummer: The Future Is Unwritten;Il futuro non è scritto - Joe Strummer;2007;Documentario;120;7,5;0;3;2;1;0;8;2;3;3;8
@@ -20876,7 +20849,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 37866;Goal II. Living the Dream;Goal II. Vivere un sogno;2007;Drammatico;115;3,1;0;2;0;1;0;6;2;2;2;2
 37867;Straightheads;Closure - Vendetta a due;2007;Horror;80;6,9;0;0;0;0;0;6;2;1;3;9
 37869;Dolls;Dolls;1987;Horror;77;6,3;0;0;0;0;0;5;1;1;3;9
-37870;Cicciabomba;Cicciabomba;1982;;92;4,7;0;0;0;0;0;5;1;2;2;
 37871;Attacco allo stato;Attacco allo stato;2005;Poliziesco;130;5,1;0;2;2;2;0;8;2;3;3;5
 37872;Raduga;Arcobaleno;1944;Drammatico;86;7,8;0;2;4;3;0;5;1;1;3;2
 37873;Ona zashchishchayet rodinu;Il compagno P;1943;Guerra;75;8;0;2;3;3;0;6;1;1;4;17
@@ -20974,7 +20946,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 37994;The Celestine Prophecy;La profezia di Celestino;2006;Avventura;99;3,4;0;3;3;0;0;6;2;2;2;7
 37995;Deepwater;Deepwater;2005;Thriller;93;5;0;0;0;0;0;7;2;2;3;6
 37996;Riding the Bullet;Riding the Bullet;2004;Horror;98;5,4;0;0;0;0;0;7;2;2;3;9
-37997;Homeless to Harvard: The Liz Murray Story;Abbandonata dal destino;2003;;104;7,3;0;0;0;0;0;7;2;2;3;
 37998;Latter Days;Inguaribili romantici;2003;Commedia;107;6;0;0;0;0;0;7;2;2;3;4
 37999;Black Snake Moan;Black Snake Moan;2006;Commedia;116;7,3;0;2;3;2;2;7;2;2;3;4
 38001;Via del corso;Via del corso;2000;Commedia;96;2;0;2;0;0;0;4;1;2;1;4
@@ -21059,7 +21030,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 38131;Boy A;Boy A;2007;Drammatico;100;7,3;0;2;1;2;0;7;2;2;3;2
 38133;Taxi to the Dark Side;Taxi to the Dark Side;2007;Documentario;106;8,3;0;2;2;2;0;8;2;2;4;8
 38134;The Ruins;Rovine;2008;Horror;91;5,4;1;2;0;2;1;7;2;2;3;9
-38136;Chaharshanbe-soori;Fireworks Wednesday;2006;;102;7,8;0;0;0;0;0;7;2;2;3;
 38137;Vicky Cristina Barcelona;Vicky Cristina Barcelona;2008;Commedia;96;5,9;1;2;0;1;2;7;2;2;3;4
 38139;Half Nelson;Half Nelson;2006;Drammatico;106;6,9;1;2;3;1;1;7;2;2;3;2
 38143;Kettle of Fish;Che bel pasticcio;2006;Commedia;97;3,9;1;2;0;0;0;6;2;2;2;4
@@ -21254,7 +21224,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 38475;Boogie;Boogie;2008;Commedia;102;6,5;0;0;0;0;0;7;2;2;3;4
 38477;El Cant dels ocells;Il canto degli uccelli;2008;Drammatico;99;8,1;2;2;0;2;0;8;2;2;4;2
 38478;Cztery noce z Anna;Quattro notti con Anna;2008;Drammatico;87;7,7;0;2;3;2;0;6;2;1;3;2
-38479;De la guerre;De la guerre. Della guerra;2007;;130;7,3;2;2;3;2;3;8;2;3;3;
 38481;Eldorado;Eldorado Road;2008;Drammatico;80;6,2;2;2;1;0;0;6;2;1;3;2
 38483;Liverpool;Liverpool;2008;Drammatico;84;7;0;0;0;0;0;6;2;1;3;2
 38493;Tony Manero;Tony Manero;2008;Drammatico;98;7;0;2;3;3;2;7;2;2;3;2
@@ -21437,7 +21406,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 38798;Italian Dream;Italian Dream;2007;Commedia;95;8,5;3;2;4;2;0;8;2;2;4;4
 38799;Big City;Big City;2007;Western;100;6;1;2;3;1;1;7;2;2;3;12
 38802;Destinazione Sanremo;Destinazione Sanremo;1959;Commedia;91;3,2;1;2;2;0;0;5;1;2;2;4
-38804;Elizabeth I;Elizabeth I;2005;;223;6,8;0;0;0;0;0;9;2;4;3;
 38805;Lost in the Dark;Terrore nel buio;2007;Thriller;100;5,8;0;2;0;3;0;7;2;2;3;6
 38806;Geschlecht in Fesseln - Die Sexualnot der Gefangenen;Sesso incatenato;1928;Drammatico;106;7;0;2;3;1;1;6;1;2;3;2
 38807;Seizoku;Sex Jack;1970;Drammatico;73;5,9;0;2;3;1;3;5;1;1;3;2
@@ -21596,7 +21564,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 39087;Inga Lindström - Der Weg zu dir;Inga Lindström - Ombre dal passato;2005;Sentimentale;90;3,5;0;0;0;0;0;6;2;2;2;3
 39088;La bestia uccide a sangue freddo;La bestia uccide a sangue freddo;1971;Horror;86;4;1;2;0;2;2;4;1;1;2;9
 39091;Vegas: based on a true story;Vegas: based on a true story;2008;Drammatico;102;7,6;0;1;3;3;0;7;2;2;3;2
-39092;35 rhums;35 rhums;2008;;100;7,4;0;1;2;0;0;7;2;2;3;
 39093;Roonevesht barabar asl ast;Copia conforme;2009;Drammatico;106;5,8;1;3;1;0;0;7;2;2;3;2
 39094;Orfeo 9;Orfeo 9;1973;Drammatico;82;5,9;0;0;0;0;0;5;1;1;3;2
 39102;Pranzo di ferragosto;Pranzo di ferragosto;2008;Commedia;75;7,1;3;2;2;1;0;6;2;1;3;4
@@ -21714,7 +21681,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 39296;The Decline of Western Civilization;The Decline of Western Civilization;1981;Documentario;100;7,5;0;0;0;0;0;6;1;2;3;8
 39299;Waiting...;Waiting...;2005;Commedia;94;5,8;0;0;0;0;0;7;2;2;3;4
 39300;Wet Hot American Summer;Wet Hot American Summer;2001;Commedia;97;5,7;0;0;0;0;0;6;1;2;3;4
-39301;Ted Bundy;Ted Bundy;2002;;99;5,1;0;2;0;1;0;7;2;2;3;
 39302;The Stranger Beside Me;Ted Bundy il serial killer;2003;Thriller;120;6;0;0;0;0;0;8;2;3;3;6
 39303;Walking Tall: The Payback;Walking Tall 2: la rivincita;2007;Azione;88;5,4;0;2;0;1;0;6;2;1;3;10
 39304;Vacanze per un massacro;Vacanze per un massacro;1980;Thriller;86;5,5;0;3;1;2;1;5;1;1;3;6
@@ -22114,9 +22080,7 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 39998;Darbareye Elly;About Elly;2009;Drammatico;119;7,3;0;3;1;3;0;7;2;2;3;2
 40000;Happy Tears;Happy Tears;2009;Drammatico;95;3,3;0;2;1;0;0;6;2;2;2;2
 40002;My One and Only;Viaggio d'estate;2009;Commedia;108;6,3;2;1;0;1;0;7;2;2;3;4
-40004;Tatarak;Tatarak (Sweet Rush);2009;;85;7,4;0;2;2;3;0;6;2;1;3;
 40005;La teta asustada;Il canto di Paloma;2008;Drammatico;94;6,1;0;2;3;2;2;7;2;2;3;2
-40007;Ander;Ander;2009;;128;7,7;0;0;0;0;0;8;2;3;3;
 40008;Welcome;Welcome;2009;Drammatico;115;7,8;0;3;5;4;0;7;2;2;3;2
 40009;Der Knochenmann;Lo scheletro;2009;Thriller;117;7,2;3;3;2;2;1;7;2;2;3;6
 40011;Mini's First Time;La prima volta di Nicky;2006;Commedia;91;5,1;1;2;0;1;1;7;2;2;3;4
@@ -22256,7 +22220,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 40209;Coco avant Chanel;Coco avant Chanel. L'amore prima del mito;2009;Biografico;110;5,5;0;2;0;0;0;7;2;2;3;14
 40210;Tetro;Segreti di famiglia;2009;Drammatico;127;7;3;3;3;3;3;8;2;3;3;2
 40212;Earth;Earth - La nostra terra;2007;Documentario;90;7,2;1;2;2;2;0;7;2;2;3;8
-40215;Star Wars: Episode -1. As Clone pass by;Star Wars: Episodio -1. Il passaggio del clone;2009;;195;5;0;0;0;0;0;9;2;4;3;
 40216;BloodMonkey;Le scimmie assassine;2007;Horror;90;3,3;0;2;0;1;0;6;2;2;2;9
 40219;Resurrection Mary;Resurrection Mary;2007;Thriller;91;4,3;0;2;1;1;0;6;2;2;2;6
 40220;Naked World: America Undercover;Il mondo nudo di Spencer Tunick;2003;Documentario;76;8;0;2;2;0;0;7;2;1;4;8
@@ -22378,8 +22341,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 40410;Ring Around the Rosie ;Dark memories;2006;Horror;87;3,8;0;0;0;1;0;5;2;1;2;9
 40411;Quando l'amore è oscenità;Quando l'amore è oscenità;1980;Drammatico;84;3,8;0;0;0;0;0;4;1;1;2;2
 40412;20 nuits et un jour de pluie;20 Nights;2006;Drammatico;85;3,8;0;0;0;0;0;5;2;1;2;2
-40413;La casa sperduta nel parco;La casa sperduta nel parco;1980;;91;6,5;1;2;1;2;2;6;1;2;3;
-40414;Rivelazioni di uno psichiatra sul mondo perverso del sesso;Rivelazioni di uno psichiatra sul mondo perverso del sesso;1973;;93;5,1;0;0;0;0;0;6;1;2;3;
 40416;Visions;Visions;2009;Thriller;108;4,1;0;1;0;2;0;6;2;2;2;6
 40419;Ghoulies ;Ghoulies;1985;Commedia;81;3,8;1;2;1;1;1;4;1;1;2;4
 40420;Ghoulies II ;Ghoulies II - Il principe degli scherzi;1987;Commedia;89;4,2;1;2;1;1;1;4;1;1;2;4
@@ -22819,7 +22780,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 41132;Desiderio;Desiderio;1946;Drammatico;73;6,3;0;0;0;0;0;5;1;1;3;2
 41137;The Express;The Express;2008;Biografico;130;5,6;0;2;2;0;0;8;2;3;3;14
 41139;Horror Express;Horror Express;1972;Horror;90;4,1;0;0;0;0;0;5;1;2;2;9
-41144;Kill Gil - Vol. 2;Kill Gil - Vol. 2;2006;;85;6,7;0;0;0;0;0;6;2;1;3;
 41145;Kill Gil - Vol. 2 e 1/2;Kill Gil - Vol. 2 e 1/2;2009;Documentario;87;7,8;1;2;3;3;0;6;2;1;3;8
 41146;El hijo de la novia;Il figlio della sposa;2001;Commedia;123;6,5;2;2;0;0;0;7;1;3;3;4
 41148;Ripley Under Ground;Il ritorno di Mr. Ripley;2005;Thriller;101;4,9;1;2;0;2;0;6;2;2;2;6
@@ -22835,7 +22795,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 41163;Triage;Triage;2009;Drammatico;99;5,9;0;2;2;2;0;7;2;2;3;2
 41164;Alza la testa;Alza la testa;2009;Drammatico;86;6,3;0;2;2;1;0;6;2;1;3;2
 41165;Broderskab;Fratellanza. Brotherhood;2009;Drammatico;90;6,9;0;3;3;2;0;7;2;2;3;2
-41167;Plan B;Plan B;2009;;103;7,5;0;0;0;0;0;7;2;2;3;
 41168;The Last Station;The Last Station;2009;Biografico;112;6;1;1;2;1;1;7;2;2;3;14
 41169;Vision - Aus dem Leben der Hildegard von Bingen ;Vision;2009;Biografico;110;7,5;1;2;3;2;0;7;2;2;3;14
 41171;Isla 10;Isola 10;2009;Drammatico;117;7;0;2;3;1;0;7;2;2;3;2
@@ -22883,7 +22842,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 41254;The Ministers ;The Ministers - Giustizia privata;2009;Azione;90;4,1;0;2;0;1;0;6;2;2;2;10
 41255;The House of the Devil;The House of the Devil;2009;Horror;95;6,6;0;0;0;0;0;7;2;2;3;9
 41260;L'uomo dalla bocca storta;L'uomo dalla bocca storta;2009;Documentario;59;7,1;3;2;1;0;0;6;2;1;3;8
-41265;Bancs publics (Versailles rive droite);Bancs publics (Versailles rive droite);2009;;110;6,5;0;0;0;0;0;7;2;2;3;
 41269;Het leven uit een dag ;Life in One Day;2009;Drammatico;94;6,5;0;2;0;1;0;7;2;2;3;2
 41275;Simon Konianski;Simon Konianski;2009;Commedia;100;6,8;2;1;2;1;1;7;2;2;3;4
 41280;The Age of Stupid;The Age of Stupid;2008;Documentario;92;8;1;2;4;1;0;8;2;2;4;8
@@ -22976,7 +22934,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 41456;Come stanno bene insieme;Come stanno bene insieme;1989;Commedia;90;5,5;1;2;0;0;0;6;1;2;3;4
 41458;Popieluszko. Wolnosc jest w nas ;Popieluszko;2009;Biografico;149;7;0;2;4;2;0;9;2;4;3;14
 41463;Joy Ride: Dead Ahead;Radio killer 2 - Fine della corsa;2008;Thriller;91;2,7;0;0;0;0;0;5;2;2;1;6
-41467;Get Low;The Funeral Party;2009;;100;6,6;0;0;0;0;0;7;2;2;3;
 41468;Guy and Madeline on a Park Bench;Guy and Madeline on a Park Bench;2009;Musicale;82;6,3;0;0;0;0;0;6;2;1;3;15
 41470;La nana ;Affetti & Dispetti (La Nana);2009;Drammatico;95;7,1;2;2;0;1;2;7;2;2;3;2
 41471;Nord;Nord;2009;Commedia;78;5,9;1;1;3;1;0;6;2;1;3;4
@@ -23054,7 +23011,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 41675;The Cake Eaters;The Cake Eaters - Le vie dell'amore;2007;Drammatico;86;6;0;0;3;0;0;6;2;1;3;2
 41676;Adam Resurrected;Adam Resurrected;2008;Drammatico;106;7,4;1;2;4;4;1;7;2;2;3;2
 41677;Eichmann;Eichmann;2007;Drammatico;100;5,7;0;0;0;0;0;7;2;2;3;2
-41681;Love;Love;2010;;130;6,5;0;1;0;0;1;8;2;3;3;
 41682;How to Train Your Dragon ;Dragon Trainer;2010;Animazione;98;7,6;2;3;3;2;0;7;2;2;3;1
 41684;Leap Year ;Una proposta per dire sì;2010;Commedia;100;5;1;2;0;0;0;7;2;2;3;4
 41685;Day Zero;Day Zero;2007;Drammatico;92;6,2;0;2;1;1;0;7;2;2;3;2
@@ -23179,7 +23135,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 41905;Nuremberg;Il processo di Norimberga;2000;Storico;132;6,7;1;3;3;3;1;7;1;3;3;21
 41907;Basilicata Coast to Coast;Basilicata Coast to Coast;2010;Commedia;104;6,4;1;2;1;0;0;7;2;2;3;4
 41908;L'uomo del grano;L'uomo del grano;2009;Biografico;105;3,8;0;1;3;0;0;6;2;2;2;14
-41920;Kosmos;Kosmos;2009;;110;7,5;0;0;0;0;0;7;2;2;3;
 41923;Parêdo;Parêdo;2009;Drammatico;118;6;0;0;0;0;0;7;2;2;3;2
 41925;La porta del cannone;La porta del cannone;1969;Drammatico;92;4,3;0;2;0;1;0;5;1;2;2;2
 41926;Plein sud;Plein sud. Andando a Sud;2009;Drammatico;87;7,5;2;3;1;2;2;6;2;1;3;2
@@ -23275,7 +23230,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 42136;Apocalypse 2024;A Boy and His Dog;1975;Commedia;91;6,1;0;0;0;0;0;6;1;2;3;4
 42141;The Thing About My Folks;Ricomincio da me;2005;Commedia;96;5,3;2;2;1;0;0;7;2;2;3;4
 42142;Genova a mano armata;Genova a mano armata;1976;Poliziesco;92;4;0;0;0;0;0;5;1;2;2;5
-42145;L'arroseur arrosé;L'arroseur arrosé;1897;;49;6,5;0;0;0;0;0;5;1;1;3;
 42150;Micmacs à tire-larigot ;L'esplosivo piano di Bazil;2009;Commedia;105;7,3;2;3;1;1;1;7;2;2;3;4
 42152;Termination Point;Termination Point;2007;Fantasy;89;4,3;0;2;0;3;0;5;2;1;2;16
 42153;Little Fish;Little Fish;2005;Drammatico;114;5,2;0;2;0;3;1;7;2;2;3;2
@@ -23475,7 +23429,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 42493;The Time That Remains ;Il tempo che ci rimane;2009;Drammatico;105;6,5;1;3;2;2;0;7;2;2;3;2
 42494;Il caos da Ana ;Chaotic Ana;2007;Drammatico;118;5,1;0;2;2;1;1;7;2;2;3;2
 42496;Le pecore di Cheyenne;Le pecore di Cheyenne;2007;Documentario;63;6;0;2;2;0;0;6;2;1;3;8
-42500;La distrazione;La distrazione;1965;;48;7,2;0;2;3;0;0;5;1;1;3;
 42503;L'imbroglio nel lenzuolo;L'imbroglio nel lenzuolo;2009;Drammatico;90;4,2;1;1;0;0;1;6;2;2;2;2
 42504;The Boys Are Back ;Ragazzi miei;2009;Sentimentale;104;6;1;2;1;1;0;7;2;2;3;3
 42505;C'è chi dice no;C'è chi dice no;2010;Commedia;98;5,8;1;1;1;1;1;7;2;2;3;4
@@ -23551,7 +23504,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 42642;Letters to God;Letters to God;2010;Drammatico;110;5;0;2;2;2;0;7;2;2;3;2
 42643;Triangle;Triangle;2009;Drammatico;99;6,5;0;3;2;3;0;7;2;2;3;2
 42645;Histoire(s) du cinéma: Toutes les histoires ;Histoire(s) du cinéma: Toutes les histoires - 1a;1988;Documentario;51;9;0;0;0;0;0;6;1;1;4;8
-42646;Histoire(s) du cinéma: Une histoire seule ;Histoire(s) du cinéma: Une histoire seule - 1b;1989;;42;8,5;0;0;0;0;0;6;1;1;4;
 42653;Finding Bliss ;Hollywood. Un sogno a luci rosse;2009;Commedia;96;5,3;2;2;0;0;2;7;2;2;3;4
 42656;The Good Guy;The Good Guy;2009;Commedia;90;4,7;1;2;0;0;1;6;2;2;2;4
 42658;Ming jian ;The Sword;1980;Azione;85;8,7;0;0;0;0;0;6;1;1;4;10
@@ -23970,7 +23922,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 43388;The Freebie;Solo per una notte;2010;Commedia;78;3,5;2;2;0;0;0;5;2;1;2;4
 43392;Like Dandelion Dust;Un soffio per la felicità;2009;Drammatico;100;5,9;0;2;3;2;0;7;2;2;3;2
 43394;Personal Effects;Personal Effects;2005;Thriller;91;4,3;0;2;0;1;0;6;2;2;2;6
-43396;Zift;Zift;2008;;92;8;0;0;0;0;0;8;2;2;4;
 43399;Charlie: The Life and Art of Charles Chaplin;Charlie: The Life and Art of Charles Chaplin;2003;Documentario;132;7,2;0;0;0;0;0;8;2;3;3;8
 43400;When You're Strange;When You're Strange;2009;Documentario;86;7,2;1;3;2;2;1;6;2;1;3;8
 43401;The Devil and Daniel Johnston;The Devil and Daniel Johnston;2005;Documentario;110;6,7;0;0;0;0;0;7;2;2;3;8
@@ -24002,7 +23953,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 43454;Into the Blue 2: The Reef;Trappola in fondo al mare 2. Il tesoro degli abissi;2009;Azione;92;4,6;1;2;0;1;0;6;2;2;2;10
 43457;Ugo Tognazzi. Ritratto di mio padre;Ugo Tognazzi. Ritratto di mio padre;2010;Documentario;90;7,3;2;3;2;0;0;7;2;2;3;8
 43458;Matching Jack;So che ci sei;2010;Drammatico;103;5,4;2;2;1;0;1;7;2;2;3;2
-43459;Vacanze col gangster;Vacanze col gangster;1952;;90;6;1;2;0;1;0;6;1;2;3;
 43464;Winx Club 3D. Magica avventura;Winx Club 3D. Magica avventura;2010;Animazione;87;4;0;2;0;1;0;5;2;1;2;1
 43465;L'illusionniste;L'illusionista;2010;Animazione;90;7,9;2;2;3;1;0;7;2;2;3;1
 43466;Bhutto;Bhutto;2010;Documentario;111;8,1;0;2;3;2;0;8;2;2;4;8
@@ -24046,7 +23996,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 43538;Kokuhaku ;Confessions;2010;Drammatico;106;7,1;0;2;3;3;0;7;2;2;3;2
 43541;Wai dor lei ah yut ho ;Dream Home;2010;Horror;96;7,5;0;0;0;0;0;7;2;2;3;9
 43543;Born to Raise Hell;Born to Raise Hell;2010;Azione;98;4,6;0;1;0;1;0;6;2;2;2;10
-43546;Snabba Cash ;Easy Money;2010;;124;5,5;0;0;0;0;0;8;2;3;3;
 43554;Finisterrae;Finisterrae;2010;Drammatico;80;6,6;1;1;1;1;1;6;2;1;3;2
 43555;For lung ;Fire of Conscience;2010;Azione;106;6,2;2;4;0;3;0;7;2;2;3;10
 43559;Hatchet II;Hatchet II;2010;Azione;89;6,5;0;0;0;0;0;6;2;1;3;10
@@ -24270,7 +24219,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 43936;The Last Horror Movie;The Last Horror Movie;2003;Horror;80;5,3;0;0;0;0;0;6;2;1;3;9
 43937;Saint Francis;Madame morte;2007;Horror;72;1,3;0;0;0;0;0;4;2;1;1;9
 43938;Tol'able David;Tol'able David;1921;Drammatico;99;8,8;0;0;0;0;0;7;1;2;4;2
-43940;Almanya - Willkommen in Deutschland;Almanya - La mia famiglia va in Germania;2011;;97;6,7;3;3;3;2;1;7;2;2;3;
 43941;A Torinói ló ;Il cavallo di Torino;2011;Drammatico;150;8,4;1;2;5;2;1;10;2;4;4;2
 43942;Cave of Forgotten Dreams;Cave of Forgotten Dreams;2010;Documentario;90;8,3;1;2;4;0;0;8;2;2;4;8
 43946;Joe l'implacabile;Joe l'implacabile;1967;Western;98;5;1;2;0;1;0;6;1;2;3;12
@@ -24290,7 +24238,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 43965;Rubber;Rubber;2010;Commedia;85;6,7;3;3;0;1;0;6;2;1;3;4
 43966;Midnight in Paris;Midnight in Paris;2011;Commedia;100;6,9;3;3;3;2;2;7;2;2;3;4
 43967;The Forgiveness of Blood;La Faida;2011;Drammatico;109;6,8;0;0;0;0;0;7;2;2;3;2
-43970;V Subbotu;Innocent Saturday;2011;;99;7;1;3;4;3;0;7;2;2;3;
 43971;Heisei tanuki gassen pompoko;Pom Poko;1994;Animazione;119;7,6;1;2;3;1;0;6;1;2;3;1
 43972;A Pas de Loup;Il racconto di Cathy;2011;Drammatico;77;4,8;0;2;0;1;0;5;2;1;2;2
 43974;Al-mohager ;L'emigrante;1994;Drammatico;129;8;0;2;3;1;0;8;1;3;4;2
@@ -24565,7 +24512,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 44599;Garfield's Pet Force;Garfield il Supergatto;2009;Animazione;73;2,3;1;2;0;0;0;4;2;1;1;1
 44600;X-Men: First Class;X-Men. L'inizio;2011;Supereroi;132;7,2;2;2;2;2;1;8;2;3;3;23
 44601;Bucky Larson: Born to Be a Star;Bucky Larson. Born to Be a Star;2011;Commedia;96;1,8;1;1;0;0;1;5;2;2;1;4
-44602;The Deal;The Deal;2005;;107;4,9;0;1;1;0;0;6;2;2;2;
 44603;Love Serenade;Tutte pazze per Ken;1996;Commedia;101;4,5;2;1;0;0;0;5;1;2;2;4
 44604;Beginners;Beginners;2010;Drammatico;105;6,9;0;2;3;0;0;7;2;2;3;2
 44605;Hesher;Hesher è stato qui;2010;Drammatico;100;6,3;3;2;2;2;1;7;2;2;3;2
@@ -25628,7 +25574,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 47413;George Harrison: Living in the Material World;George Harrison. Living in the Material World;2011;Documentario;208;7,5;1;2;4;0;0;9;2;4;3;8
 47422;Chalet Girl;Chalet Girl;2011;Commedia;96;4,3;0;0;0;0;0;6;2;2;2;4
 47424;La strada verso casa;La strada verso casa;2011;Drammatico;81;4,2;0;2;1;4;0;5;2;1;2;2
-47425;Fear City;Paura su Manhattan;1984;;96;5,1;0;0;0;0;0;6;1;2;3;
 47426;Wisegal;Una donna di coraggio;2008;Drammatico;89;5,4;1;2;3;2;2;6;2;1;3;2
 47429;Wonder Woman;Wonder Woman;2009;Animazione;74;5,9;0;0;0;0;0;6;2;1;3;1
 47431;L'infiltré;L'infiltrato;2011;Drammatico;105;6,1;0;2;2;2;0;7;2;2;3;2
@@ -25704,7 +25649,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 47733;Jesse Stone: No Remorse;Nessun rimorso;2010;Thriller;87;4;0;0;0;0;0;5;2;1;2;6
 47734;Birds of America;Birds of America. Una famiglia incasinata;2008;Commedia;85;5,3;2;0;2;0;0;6;2;1;3;4
 47739;Canne mozze;Canne mozze;1977;Poliziesco;90;4,5;0;0;0;0;0;5;1;2;2;5
-47741; ;Quelli che contano;1974;;97;4,8;0;0;0;0;0;5;1;2;2;
 47744;Sleepaway Camp;Sleepaway Camp;1983;Horror;88;7,9;0;0;0;0;0;5;1;1;3;9
 47745;Slugs muerte viscosa;Slugs - vortice d'orrore;1988;Horror;92;5,8;0;0;0;0;0;6;1;2;3;9
 47751;The Devil Inside;L'altra faccia del diavolo;2012;Horror;83;4,2;0;3;0;2;0;6;3;1;2;9
@@ -25718,7 +25662,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 48392;Masters of Science Fiction: Watchbird;Giustizia in volo;2007;Fantasy;43;5,5;0;0;0;0;0;6;2;1;3;16
 48395;Doragon bôru Z 5: Tobikkiri no saikyô tai saikyô;Dragon Ball Z: Il destino dei Saiyan;1991;Animazione;48;5,3;0;0;0;0;0;5;1;1;3;1
 48396;Poirot: Hickory Dickory Dock ;Poirot: filastrocca per un omicidio;1995;Thriller;103;6,3;0;0;0;0;0;6;1;2;3;6
-48398;Gasu ningen dai ichigo;Una nube di terrore;1960;;92;6;1;2;1;1;0;6;1;2;3;
 48408;Ching yan;Beast Stalker;2008;Azione;109;6,7;1;4;0;3;0;7;2;2;3;10
 48412;Wong gok hak yau;One nite in Mongkok;2004;Azione;110;7,6;0;3;0;2;0;7;2;2;3;10
 48413;The Great Gatsby;Il grande Gatsby 3D;2013;Drammatico;141;6,2;1;3;1;2;1;10;3;4;3;2
@@ -25934,9 +25877,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 49264;For a Good Time Call...;Le squillo della porta accanto;2012;Commedia;87;5,3;0;0;0;0;0;7;3;1;3;4
 49266;Celeste and Jesse Forever;Separati innamorati;2011;Commedia;89;5,5;2;2;0;0;0;6;2;1;3;4
 49268;Bachelorette;The Wedding Party – Un matrimonio con sorpresa;2012;Commedia;100;5;3;3;1;1;1;8;3;2;3;4
-49274;Morte all'orecchio di Van Gogh;Morte all'orecchio di Van Gogh;1968;;65;7,5;0;2;3;0;2;5;1;1;3;
-49276;Fractions of Temporary Periods;Fractions of Temporary Periods;1966;;51;7,7;0;2;3;0;1;5;1;1;3;
-49278;Questo film è dedicato a David Riesman e si intitolerà Capolavoro;Questo film è dedicato a David Riesman e si intitolerà Capolavoro;1967;;43;6,5;0;2;4;1;0;5;1;1;3;
 49280;The Onion Movie;News Movie;2008;Grottesco;80;6,6;2;2;1;1;2;6;2;1;3;18
 49282;Il bosco 1;Il bosco 1 (Evil clutch);1988;Horror;79;4,4;2;1;1;1;1;4;1;1;2;9
 49285;Sorority Babes in the Slimeball Bowl-O-Rama;Tragica notte al bowling;1988;Fantasy;80;3,5;0;0;0;0;0;4;1;1;2;16
@@ -26104,7 +26044,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 49841;Ticket Out;Ticket Out;2010;Thriller;90;3,3;0;1;0;1;0;6;2;2;2;6
 49843;Le rouge est mis;Il dado è tratto;1957;Thriller;95;6,1;0;0;0;0;0;6;1;2;3;6
 49845;Après mai;Qualcosa nell'aria;2012;Drammatico;122;6,5;0;0;0;0;0;9;3;3;3;2
-49849;Il ponte dei sospiri;Il ponte dei sospiri;1940;;107;4,6;0;3;0;2;0;5;1;2;2;
 49850;Brancaccio;Brancaccio;2001;Drammatico;200;3,9;0;0;0;0;0;7;1;4;2;2
 49851;Assassination Games;Assassination Games;2011;Azione;101;4,8;0;2;0;2;0;6;2;2;2;10
 49853;Chi siete venuti a cercare;Chi siete venuti a cercare. Giovanni Paolo II Ambasciatore di Pace;2006;Documentario;60;3,5;0;0;0;0;0;5;2;1;2;8
@@ -26332,7 +26271,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 50755;Dead Meat;Dead Meat;2004;Horror;80;5;0;2;0;3;0;6;2;1;3;9
 50761;Game Change;Game Change;2012;Drammatico;118;6,3;0;1;1;0;0;8;3;2;3;2
 50764;A Good Day to Die Hard;Die Hard - Un buon giorno per morire;2013;Azione;99;4,2;2;4;0;1;0;7;3;2;2;10
-50766;La gerla di papà Martin;La gerla di papà Martin;1940;;94;5,4;0;2;2;2;0;6;1;2;3;
 50767;Quijote;Quijote;2006;Storico;75;7;3;2;3;1;1;6;2;1;3;21
 50771;The Woman God Forgot;L'ultima dei Montezuma;1917;Storico;60;6,3;0;2;2;2;0;5;1;1;3;21
 50773;Tutti i santi giorni;Tutti i santi giorni;2012;Commedia;102;6,7;2;3;2;1;1;8;3;2;3;4
@@ -26419,7 +26357,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 51056;Dragon Eyes;Gli occhi del dragone;2012;Azione;91;6,1;0;0;0;0;0;8;3;2;3;10
 51058;Welcome to the Punch;Welcome to the Punch - Nemici di sangue;2013;Azione;99;5,5;0;3;0;2;0;8;3;2;3;10
 51070;Nekeddo burâddo: Megyaku;Naked Blood;1996;Horror;76;6,2;0;2;0;3;2;5;1;1;3;9
-51071;Walter Chiari - Fino all'ultima risata;Walter Chiari - Fino all'ultima risata;2012;;200;5,9;2;2;2;1;2;10;3;4;3;
 51072;Salome;Salome;1922;Biblico;72;7,7;0;0;0;0;0;5;1;1;3;24
 51074;Meeting Evil;Incontro con il male;2011;Thriller;89;4,1;1;1;1;1;0;5;2;1;2;6
 51080;Eddie: The Sleepwalking Cannibal;Eddie: The Sleepwalking Cannibal;2011;Horror;83;7;0;0;0;0;0;6;2;1;3;9
@@ -26455,7 +26392,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 51154;3 2 1... Frankie Go Boom;3 2 1... Frankie Go Boom;2012;Commedia;89;7,3;0;0;0;0;0;7;3;1;3;4
 51157;6 passi nel giallo. Vite in ostaggio;6 passi nel giallo. Vite in ostaggio;2012;Thriller;100;5,6;0;1;2;2;0;8;3;2;3;6
 51159;Kobe Doin' Work;Kobe Doin' Work. Un giorno con Kobe Bryant;2009;Documentario;84;5,3;2;2;1;0;0;6;2;1;3;8
-51162;Materiale resistente;Materiale resistente;1995;;80;8;0;0;0;0;0;6;1;1;4;
 51165;Troppo amore ;Troppo amore ;2012;Drammatico;100;4,2;0;0;0;0;0;7;3;2;2;2
 51167;Secretos;Segreti;2008;Commedia;85;5,8;2;2;4;2;0;6;2;1;3;4
 51172;Generation Um...;Generazione Um...;2012;Drammatico;96;3,3;0;0;0;0;0;7;3;2;2;2
@@ -26513,7 +26449,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 51325;Noce blanche;Noce blanche;1989;Drammatico;92;6,8;0;0;0;0;0;6;1;2;3;2
 51330;Ufo Robot Grendizer;Goldrake l'invincibile;1979;Animazione;92;7,2;0;0;0;0;0;6;1;2;3;1
 51333;Wild Things: Foursome;Sex Crimes 4. Il crimine è ancora più seducente;2010;Thriller;92;3,1;0;2;0;3;2;6;2;2;2;6
-51335;Il prigioniero di Santa Cruz;Il prigioniero di Santa Cruz;1941;;68;3,5;1;1;0;1;0;4;1;1;2;
 51337;Mai per amore. La fuga di Teresa;Mai per amore. La fuga di Teresa;2012;Drammatico;100;5,4;0;2;2;1;0;8;3;2;3;2
 51366;Dalla parte giusta;Dalla parte giusta;2005;Drammatico;90;4,5;0;2;1;0;0;6;2;2;2;2
 51368;Gottes mächtige Dienerin;Suor Pascalina. Nel cuore della fede;2011;Biografico;110;3,2;0;0;0;0;0;6;2;2;2;14
@@ -26551,7 +26486,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 51481;Maria di Nazaret;Maria di Nazaret;2012;Biblico;200;5;0;0;0;0;0;10;3;4;3;24
 51483;Tom and Jerry in Shiver Me Whiskers;Tom & Jerry all'arrembaggio;2006;Animazione;74;5,8;2;2;0;0;0;6;2;1;3;1
 51486;Mai per amore. Helena & Glory;Mai per amore. Helena & Glory;2012;Drammatico;94;5;0;0;0;0;0;8;3;2;3;2
-51487;Kabe no naka no himegoto;Segreti dietro al muro;1965;;90;6,9;0;2;2;1;2;6;1;2;3;
 51488;10th & Wolf;Affari di sangue;2006;Azione;107;3,4;1;2;0;1;0;6;2;2;2;10
 51505;From Time to Time;Il segreto di Green Knowe;2009;Fantasy;95;5;0;0;0;0;0;7;2;2;3;16
 51507;Bianco;Bianco;2010;Drammatico;82;3,3;0;0;0;0;0;5;2;1;2;2
@@ -26629,7 +26563,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 51884;Infancia clandestina;Infanzia clandestina;2012;Drammatico;112;6,7;1;1;3;2;0;8;3;2;3;2
 51890;Dwae-ji-ui wang;The King of Pigs;2011;Animazione;97;7,5;0;0;0;0;0;7;2;2;3;1
 51897;Method;Dead even. Sangue caldo;2004;Thriller;93;3;0;2;0;1;0;6;2;2;2;6
-51898;Amor Louco;Amor Louco. Crazy Love;1971;;85;6,8;0;2;2;0;0;5;1;1;3;
 51901;Deceit;Inganno fatale;2006;Drammatico;90;5;0;0;0;0;0;7;2;2;3;2
 51905;Les chevaux de dieu;Les chevaux de dieu;2012;Drammatico;115;7,8;0;0;0;0;0;8;3;2;3;2
 51907;Rengaine;Rengaine;2012;Drammatico;75;5;2;2;3;1;1;7;3;1;3;2
@@ -26702,12 +26635,10 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 52167;The Last Stand;The Last Stand - L'ultima sfida;2013;Azione;107;6,2;2;4;1;2;1;8;3;2;3;10
 52173;Three O'Clock High;L'ora della rivincita;1987;Commedia;97;6,5;0;0;0;0;0;6;1;2;3;4
 52192;Nero Wolfe - Parassiti;Nero Wolfe - Parassiti;2012;Thriller;100;5,7;0;0;0;0;0;8;3;2;3;6
-52194;Una iena in cassaforte;Una iena in cassaforte;1968;;100;5,5;0;0;0;0;0;6;1;2;3;
 52198;Won't Back Down;Una scuola per Malia;2012;Drammatico;121;5,9;2;3;3;1;0;9;3;3;3;2
 52206;At Any Price;A qualsiasi prezzo;2012;Drammatico;100;5,9;0;2;3;2;1;8;3;2;3;2
 52214;7500;Volo 7500;2014;Horror;103;4,9;0;1;1;1;0;7;3;2;2;9
 52215;Age of the Dragons;Age of the Dragons;2011;Fantasy;91;3,7;0;2;0;2;0;6;2;2;2;16
-52217;Amish Grace;La forza del perdono;2010;;88;5,3;0;0;0;0;0;6;2;1;3;
 52221;Fair Play;Fair Play;2006;Thriller;103;5,3;0;2;0;2;0;7;2;2;3;6
 52222;Les champs brûlants;I campi ardenti;2010;Documentario;72;5,5;0;2;3;0;0;6;2;1;3;8
 52224;Nero Wolfe - La scatola rossa;Nero Wolfe - La scatola rossa;2012;Thriller;100;6;0;0;0;0;0;8;3;2;3;6
@@ -26722,7 +26653,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 52250;Mah nakorn;Citizen Dog;2004;Commedia;100;7,3;0;0;0;0;0;7;2;2;3;4
 52255;The Reunion;The Reunion;2011;Azione;95;5,5;0;0;0;0;0;7;2;2;3;10
 52262;Do Not Disturb;Do Not Disturb;2012;Commedia;120;4,7;0;0;0;0;0;8;3;3;2;4
-52266;Il circolo Pickwick;Il circolo Pickwick;1968;;310;6,4;0;0;0;0;0;8;1;4;3;
 52272;Yella;Yella;2007;Drammatico;89;6,7;0;2;2;3;1;6;2;1;3;2
 52287;The Ghost of Frankenstein;Il terrore di Frankenstein;1942;Drammatico;67;5,8;0;0;0;0;0;5;1;1;3;2
 52294;Pacific Rim;Pacific Rim;2013;Azione;131;6,3;1;4;2;3;0;9;3;3;3;10
@@ -26774,7 +26704,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 52440;Katie Fforde - Eine Liebe in den Highlands;Un amore di lana;2010;Sentimentale;89;6,3;0;0;0;0;0;6;2;1;3;3
 52442;Io suo padre;Io suo padre;1939;Drammatico;91;5,3;0;2;1;1;0;6;1;2;3;2
 52445;Das Paradies am Ende der Welt;Emilie Richards: Il Paradiso alla fine del mondo;2009;Sentimentale;89;4,6;0;1;1;0;0;5;2;1;2;3
-52449;Ties That Bind;Legami pericolosi;2010;;90;5,3;0;0;0;0;0;7;2;2;3;
 52455;Great World of Sound;Great World of Sound;2007;Commedia;106;7;0;0;0;0;0;7;2;2;3;4
 52462;Public Speaking;La parola a Fran Lebowitz;2010;Documentario;84;6,7;2;2;1;0;0;6;2;1;3;8
 52468;Undisputed III: Redemption;Undisputed III: Redemption;2010;Azione;96;7;0;0;0;0;0;7;2;2;3;10
@@ -26934,7 +26863,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 53143;Belle et Sébastien;Belle & Sebastien;2013;Drammatico;95;6,3;1;2;1;1;0;8;3;2;3;2
 53144;The Love Punch;Colpo d'amore;2013;Commedia;95;4;2;2;0;0;0;7;3;2;2;4
 53149;Roberto Rossellini: appunti biografici;Roberto Rossellini: appunti biografici;1964;Documentario;57;5;0;2;1;0;0;5;1;1;3;8
-53151;Oliveira o arquitecto;Oliveira l'architetto ;1993;;61;4,9;0;2;1;0;0;4;1;1;2;
 53153;JLG/JLG - autoportrait de décembre;JLG/JLG: autoritratto di dicembre;1994;Documentario;62;5,8;1;2;2;0;0;5;1;1;3;8
 53161;Moments choisis des histoire(s) du cinéma;Momenti scelti delle Histoire(s) du cinéma;2004;Documentario;84;5,8;1;2;2;0;0;6;2;1;3;8
 53165;The Dinosaur Project;The Lost Dinosaurs;2012;Avventura;83;2,7;1;2;1;1;0;5;3;1;1;7
@@ -27086,7 +27014,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 53712;Monicelli - La versione di Mario;Monicelli - La versione di Mario;2012;Documentario;83;6,8;2;2;2;0;0;7;3;1;3;8
 53728;Terror Train;Terror Train;1980;Horror;97;5,6;1;4;2;4;1;6;1;2;3;9
 53752;Pursuit to Algiers;Destinazione Algeri;1945;Avventura;65;5,5;0;0;0;0;0;5;1;1;3;7
-53754;The Adventures of Sherlock Holmes;Le avventure di Sherlock Holmes;1939;;85;6,5;0;0;0;0;0;5;1;1;3;
 53764;Gli anni delle immagini perdute;Gli anni delle immagini perdute;2012;Documentario;87;6,5;0;2;2;0;0;7;3;1;3;8
 53770;Harry Dean Stanton: Partly Fiction;Harry Dean Stanton: Partly Fiction;2012;Documentario;77;8;0;0;0;0;0;8;3;1;4;8
 53771;Karumen kokyo ni kaeru;Carmen Comes Home;1951;Commedia;86;7,5;0;0;0;0;0;5;1;1;3;4
@@ -27570,12 +27497,10 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 56285;Wrong Turn 5: Bloodlines;Wrong Turn 5 - Bagno di sangue;2012;Horror;87;3,9;0;2;0;1;0;6;3;1;2;9
 56286;w Delta z;w Delta z;2007;Thriller;104;4,6;0;0;0;0;0;6;2;2;2;6
 56288;The Bed Sitting Room;Mutazioni;1969;Commedia;90;6,3;0;0;0;0;0;6;1;2;3;4
-56298;Jackass: The Lost Tapes;Jackass: The Lost Tapes;2009;;107;4,3;0;0;0;0;0;6;2;2;2;
 56304;Jing wu ying xiong;Fist of legend;1994;Azione;103;9;0;0;0;0;0;7;1;2;4;10
 56308;Sadie Thompson;Tristana e la maschera;1928;Drammatico;91;8,5;0;0;0;0;0;7;1;2;4;2
 56310;The Saphead;Lo sciocco;1920;Commedia;77;6;0;0;0;0;0;5;1;1;3;4
 56323;Don gato y su pandilla;Top Cat - Il Film;2011;Animazione;90;3,3;0;0;0;0;0;6;2;2;2;1
-56327;Sedia elettrica;Sedia elettrica;1969;;115;2;0;0;0;0;0;4;1;2;1;
 56331;Christmas Magic;Un magico Natale;2011;Drammatico;90;5,2;0;0;0;0;0;7;2;2;3;2
 56333;Con cuore puro - Un documentario sull'incerto universo amoroso;Con cuore puro - Un documentario sull'incerto universo amoroso;2012;Documentario;60;4,8;1;1;2;0;0;6;3;1;2;8
 56344;The Matinee Idol;Il teatro di Minnie;1928;Commedia;66;6,4;0;0;0;0;0;5;1;1;3;4
@@ -27726,7 +27651,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 56945;Fantaghirò 5;Fantaghirò 5;1996;Fantasy;200;2,9;0;2;0;1;1;6;1;4;1;16
 56947;Fantaghirò 4;Fantaghirò 4;1994;Fantasy;200;4;0;0;0;0;0;7;1;4;2;16
 56948;Muscle Shoals;Dove nascono le leggende: Muscle Shoals;2012;Documentario;102;7;0;3;2;1;0;8;3;2;3;8
-56949;Wrong Cops;Wrong Cops;2013;;45;6,6;0;0;0;0;0;7;3;1;3;
 56950;Foxcatcher;Foxcatcher - Una storia americana;2014;Drammatico;130;7,4;0;2;3;3;0;9;3;3;3;2
 56952;Blue Caprice;Blue Caprice;2013;Drammatico;93;7,3;0;0;0;0;0;8;3;2;3;2
 56954;Computer Chess;Computer Chess;2013;Commedia;91;5,7;2;2;1;0;0;8;3;2;3;4
@@ -28547,7 +28471,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 61804;Il boia di Venezia;Il boia di Venezia;1963;Avventura;90;4,2;0;0;0;0;0;5;1;2;2;7
 61807;The Gunman;The Gunman;2015;Azione;115;4,6;1;2;2;2;0;7;3;2;2;10
 61820;E agora? Lembra-me ;What Now? Remind Me;2013;Documentario;164;7,5;0;0;0;0;0;10;3;4;3;8
-61822;Educação Sentimental;Educazione sentimentale;2013;;84;7,6;0;0;0;0;0;7;3;1;3;
 61825;Sangue;Sangue;2013;Sperimentale;89;5,6;0;0;0;0;0;7;3;1;3;26
 61828;Avis de mistral;Un'estate in Provenza;2014;Commedia;105;4,3;1;1;1;0;0;7;3;2;2;4
 61847;Indebito;Indebito;2013;Documentario;87;5,4;0;2;2;0;0;7;3;1;3;8
@@ -29298,7 +29221,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 66306;Hanjo mugen jigoku;Inferno di sogno;1970;Drammatico;80;7,5;2;2;2;1;2;5;1;1;3;2
 66308;Forgiveness;Forgiveness - Il perdono;2004;Drammatico;112;7,6;0;2;2;2;0;7;2;2;3;2
 66316;Das Venedig Prinzip;Teorema Venezia;2012;Documentario;82;4,7;0;0;2;0;0;6;3;1;2;8
-66337;Mia moglie un corpo per l'amore;Mia moglie un corpo per l'amore;1973;;90;4;0;0;0;0;0;5;1;2;2;
 66343;House of Secrets;La casa dei segreti;2014;Drammatico;70;5,8;0;0;0;0;0;7;3;1;3;2
 66351;Barely Lethal;Barely Lethal - 16 anni e spia;2015;Azione;96;4,7;2;2;1;0;0;7;3;2;2;10
 66366;Chiisai ouchi;The Little House;2014;Drammatico;136;7,3;1;1;1;1;0;9;3;3;3;2
@@ -29308,7 +29230,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 66390;Kreuzweg;Kreuzweg - Le stazioni della fede;2014;Drammatico;107;6,9;0;1;4;2;0;8;3;2;3;2
 66413;E fu sera e fu mattina;E fu sera e fu mattina;2013;Drammatico;109;4,8;0;2;2;0;0;7;3;2;2;2
 66420;Violet;Violet;2014;Drammatico;82;6,5;0;0;1;0;0;7;3;1;3;2
-66428;Xi You;Journey to the West;2014;;56;7;0;0;0;0;0;7;3;1;3;
 66430;The Book of Life;Il libro della vita;2014;Animazione;95;7;2;3;1;1;0;8;3;2;3;1
 66433;Aspettando Totò;Aspettando Totò;1996;Documentario;64;5,9;1;2;1;0;0;5;1;1;3;8
 66435;Il segno del comando;Il segno del comando;1992;Thriller;100;6,7;0;0;0;0;0;6;1;2;3;6
@@ -29998,7 +29919,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 70896;The Sound and the Fury;L'urlo e il furore;2014;Drammatico;101;7,3;0;0;0;0;0;8;3;2;3;2
 70902;Im Keller;In the Basement;2014;Documentario;82;6,9;2;1;3;0;1;7;3;1;3;8
 70903;Theeb;Theeb;2014;Avventura;100;7,4;0;0;0;0;0;8;3;2;3;7
-70905;Kreditis Limiti;Line of Credit;2014;;125;6,3;0;0;0;0;0;9;3;3;3;
 70906;Io sto con la sposa;Io sto con la sposa;2014;Documentario;89;6,6;1;2;3;1;0;7;3;1;3;8
 70908;Ich seh Ich seh;Goodnight Mommy;2014;Drammatico;99;6,8;1;3;2;2;1;8;3;2;3;2
 70910;Jayuui Eondeok;La collina della libertà;2014;Drammatico;67;6,4;0;0;0;0;0;7;3;1;3;2
@@ -30169,7 +30089,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 72263;Eva Braun;Eva Braun;2014;Drammatico;84;5,5;0;0;0;0;0;7;3;1;3;2
 72271;Terror in the Wax Museum;Il manichino assassino;1973;Horror;93;4,9;0;0;0;0;0;5;1;2;2;9
 72273;Es ist nicht gut in einem Menschenleib zu leben;L'ultimo giudizio di Rainer Werner Fassbinder;1995;Documentario;55;7,3;0;0;0;0;0;5;1;1;3;8
-72287;Come quando fuori piove;Come quando fuori piove;2000;;162;4;0;0;0;0;0;7;1;4;2;
 72291;Heidi;Heidi;2015;Drammatico;121;5,4;2;2;2;1;0;9;3;3;3;2
 72293;Triangle;Triangle;2014;Documentario;63;6,8;0;2;4;1;0;7;3;1;3;8
 72295;David Bowie Is Happening Now;David Bowie Is;2013;Documentario;100;6,8;0;2;1;0;0;8;3;2;3;8
@@ -30189,7 +30108,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 72409;Il Leone di Vetro;Il Leone di Vetro;2014;Drammatico;108;3,4;0;2;1;0;0;7;3;2;2;2
 72411;Les jolies choses;Pretty Things - Les jolies choses;2001;Drammatico;105;5;0;2;2;1;2;6;1;2;3;2
 72425;Mikra Anglia;Little England;2013;Drammatico;160;4,7;0;0;0;0;0;9;3;4;2;2
-72439;Incontro;Incontro;1971;;103;5,8;0;0;0;0;0;6;1;2;3;
 72445;The American Side;The American Side;2014;Drammatico;104;5;0;0;0;0;0;8;3;2;3;2
 72449;Jesse Stone: Thin Ice;Jesse Stone: Nel mezzo del nulla;2009;Drammatico;88;5,3;0;0;0;0;0;6;2;1;3;2
 72453;Musei Vaticani 3D;Musei Vaticani 3D;2014;Documentario;66;6,5;0;2;3;0;0;7;3;1;3;8
@@ -30435,7 +30353,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 73953;Le Petit Prince;Il Piccolo Principe;2015;Animazione;108;6,8;2;2;3;1;0;8;3;2;3;1
 73965;Whitney;Whitney;2015;Biografico;88;4,5;0;0;0;0;0;6;3;1;2;14
 73967;Turbo Kid;Turbo Kid;2015;Fantasy;90;6,1;0;1;0;1;0;8;3;2;3;16
-73975;Lo scialo;Lo scialo;1987;;90;7,3;0;0;0;0;0;6;1;2;3;
 73983;Digging for Fire;Un tranquillo weekend di mistero;2015;Drammatico;85;5,4;0;0;0;0;0;7;3;1;3;2
 73985;Don Verdean;Don Verdean;2015;Commedia;90;5,9;0;0;0;0;0;8;3;2;3;4
 73987;Experimenter;Experimenter;2015;Biografico;94;6,4;0;0;0;0;0;8;3;2;3;14
@@ -33544,7 +33461,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 141149;The Stranger Inside;Il passato non dimentica;2016;Thriller;90;6,4;0;0;0;0;0;8;3;2;3;6
 141158;Peurizeun;The Prison;2017;Azione;125;4,3;0;0;0;0;0;8;3;3;2;10
 141161;Garyeojin Shigan;Vanishing Time: A Boy Who Returned;2016;Fantasy;130;5,7;0;0;0;0;0;9;3;3;3;16
-141174;Mon Mon Mon Monsters;Mon Mon Mon Monsters;2017;;110;7,5;0;0;0;0;0;8;3;2;3;
 141264;Boyfriend Killer;Un'ex pericolosa;2017;Drammatico;120;4,5;0;0;0;0;0;8;3;3;2;2
 141265;The Twin;Duplice identità;2017;Drammatico;90;6,1;0;0;0;0;0;8;3;2;3;2
 141269;A Star Is Born;A Star Is Born;2018;Drammatico;135;6;0;0;0;0;0;9;3;3;3;2
@@ -35883,7 +35799,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 167943;Chronicle Mysteries: Recovered;Chronicle Mysteries: Ritrovati;2019;Thriller;90;5,2;0;0;0;0;0;8;3;2;3;6
 167949;Berlin I Love You;Berlin I Love You;2019;Commedia;120;3,5;0;0;0;0;0;8;3;3;2;4
 167951;The Bay of Silence;La baia del silenzio;2020;Drammatico;93;4,5;0;0;0;0;0;7;3;2;2;2
-167955;The Farm;The Farm;2018;;80;4,8;0;0;0;0;0;6;3;1;2;
 167985;We Die Young;We Die Young;2019;Azione;93;5,5;0;0;0;0;0;8;3;2;3;10
 167989;Below Utopia;Party fatale;1997;Drammatico;88;9,3;0;0;0;0;0;6;1;1;4;2
 168001;You Should Have Left;Ve ne dovevate andare;2020;Drammatico;93;5;0;0;0;0;0;8;3;2;3;2
@@ -35985,7 +35900,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 169511;Shelter: Farewell to Eden;Shelter - Addio all'Eden;2019;Documentario;81;6,2;0;0;0;0;0;7;3;1;3;8
 169513;The Nude Bomb;Il ritorno di Maxwell Smart;1980;Commedia;94;5,5;0;0;0;0;0;6;1;2;3;4
 169517;Un rubio;The Blond One;2019;Drammatico;108;7,8;0;0;0;0;0;8;3;2;3;2
-169523;All the Colors of Giallo;All the Colors of Giallo;2019;;89;6,7;0;0;0;0;0;7;3;1;3;
 169545;Liu Lang Di Qiu;The Wandering Earth;2019;Fantasy;125;5,1;0;0;0;0;0;9;3;3;3;16
 169549;Queen & Slim;Queen & Slim;2019;Drammatico;132;5,3;0;0;0;0;0;9;3;3;3;2
 169553;Midsommar;Midsommar - Il villaggio dei dannati;2019;Horror;140;6,5;0;0;0;0;0;10;3;4;3;9
@@ -36124,7 +36038,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 170735;My Spy;My Spy;2020;Commedia;101;5,3;0;0;0;0;0;8;3;2;3;4
 170741;Tantas Almas;Valley of Souls;2019;Drammatico;137;7,7;0;0;0;0;0;9;3;3;3;2
 170747;Waves;Waves - Le onde della vita;2019;Drammatico;135;6,4;0;0;0;0;0;9;3;3;3;2
-170759;Night School;Il killer della notte;1981;;88;6,3;0;0;0;0;0;5;1;1;3;
 170761;Descendants 3;Descendants 3;2019;Fantasy;106;2,3;0;0;0;0;0;6;3;2;1;16
 170865;Noura rêve;Noura's Dream;2019;Drammatico;92;6,2;0;0;0;0;0;8;3;2;3;2
 170869;Gimtine;Motherland;2019;Drammatico;96;6,3;0;0;0;0;0;8;3;2;3;2
@@ -36730,7 +36643,6 @@ filmtv_id;titolo_originale;titolo_italiano;anno;genere;durata;voto;humor;ritmo;i
 183219;Dorogie tovarischi;Cari compagni;2020;Drammatico;116;7,5;0;0;0;0;0;8;3;2;3;2
 183222;La Grande Magia;La Grande Magia;1964;Commedia;120;6,3;0;0;0;0;0;7;1;3;3;4
 183232;Eté 85;Estate '85;2020;Drammatico;100;7;0;0;0;0;0;8;3;2;3;2
-183233;Tensión sexual Volumen 1: Volátil;Tensión sexual Volumen 1: Volátil;2012;;85;8,5;0;0;0;0;0;8;3;1;4;
 183242;L'amour violé;L'amour violé;1978;Drammatico;115;7,5;0;0;0;0;0;6;1;2;3;2
 183274;Supernova;Supernova;2020;Drammatico;93;6,5;0;0;0;0;0;8;3;2;3;2
 183281;Autumn Dreams;L'amore non divorzia mai;2015;Sentimentale;84;7;0;0;0;0;0;7;3;1;3;3

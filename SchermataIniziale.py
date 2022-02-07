@@ -1,10 +1,12 @@
 from User import Utente
 from ReteNeurale import PrevisionePrezzo
+from SuggerimentoFilm import SuggerisciFilm
 
 if __name__ == '__main__':
     utente1 = Utente()
     prezzo = PrevisionePrezzo()
-    scelta=0
+
+    scelta = 0
 
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     print("|                    GESTORE FILM E SERIE TV                       |")
@@ -15,16 +17,12 @@ if __name__ == '__main__':
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
     while scelta != '1' and scelta != '2':
-        scelta=input("Inserisci il numero dell'operazione da effettuare : ")
+        scelta = input("Inserisci il numero dell'operazione da effettuare : ")
 
     if scelta == '1':
-        utente1.inserisciFilm()
-        prezzo.prediciPrezzo(utente1)
+        utente1.inseriscifilm()
+        prezzo.prediciprezzo(utente1)
     if scelta == '2':
-        utente1.richiestaFilm()
-
-
-
-
+        utente1.richiestafilm()
+        suggerimento = SuggerisciFilm(utente1)
 pass
-
