@@ -14,6 +14,7 @@ class Utente:
     peso_anno = 0
     peso_voto = 0
     peso_durata = 0
+    genere_numerico = 0
 
     @classmethod
     def inserisciFilm(self):
@@ -48,7 +49,7 @@ class Utente:
         if self.durata < 90:
             self.peso_durata = 1
         elif self.durata < 120:
-            peso_durata = 2
+            self.peso_durata = 2
         elif self.durata < 140:
             self.peso_durata = 3
         else: self.peso_durata = 4
@@ -60,3 +61,58 @@ class Utente:
         elif self.voto >= 3:
             self.peso_voto = 2
         else: self.peso_voto = 1
+
+        if self.genere=="Animazione":
+            genere_numerico = 1
+        elif self.genere=="Drammatico":
+            genere_numerico = 2
+        elif self.genere=="Sentimentale":
+            genere_numerico = 3
+        elif self.genere=="Commedia":
+            genere_numerico = 4
+        elif self.genere=="Poliziesco":
+            genere_numerico = 5
+        elif self.genere=="Thriller":
+            genere_numerico = 6
+        elif self.genere=="Avventura":
+            genere_numerico = 7
+        elif self.genere=="Documentario":
+            genere_numerico = 8
+        elif self.genere=="Horror":
+            genere_numerico = 9
+        elif self.genere=="Azione":
+            genere_numerico = 10
+        elif self.genere=="Catastrofico":
+            genere_numerico = 11
+        elif self.genere=="Western":
+            genere_numerico = 12
+        elif self.genere=="Spionaggio":
+            genere_numerico = 13
+        elif self.genere=="Biografico":
+            genere_numerico = 14
+        elif self.genere=="Musicale":
+            genere_numerico = 15
+        elif self.genere=="Fantasy":
+            genere_numerico = 16
+        elif self.genere=="Guerra":
+            genere_numerico = 17
+        elif self.genere=="Grottesco":
+            genere_numerico = 18
+        elif self.genere=="Gangster":
+            genere_numerico = 19
+        elif self.genere=="Mitologico":
+            genere_numerico = 20
+        elif self.genere=="Storico":
+            genere_numerico = 21
+        elif self.genere=="Noir":
+            genere_numerico = 22
+        elif self.genere=="Supereroi":
+            genere_numerico = 23
+        elif self.genere=="Biblico":
+            genere_numerico = 24
+        elif self.genere=="Sportivo":
+            genere_numerico = 25
+        elif self.genere=="Sperimentale":
+            genere_numerico = 26
+        elif self.genere=="Cortometraggio":
+            genere_numerico = 27

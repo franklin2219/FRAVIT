@@ -2,7 +2,7 @@ from User import Utente
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors._classification import KNeighborsClassifier
-from sklearn.metrics import mean_absolute_error;
+from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 from numpy import mean
