@@ -13,11 +13,11 @@ if __name__ == '__main__':
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     print("|                    GESTORE FILM E SERIE TV                       |")
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-    print("|                    1) Inserisci nuovo film                       |")
+    print("|                    1) Predici Prezzo                             |")
     print("|                    2) Suggerisci film                            |")
-    print("|                    3) Menu film                                  |")
-    print("|                    4) Inserisci film in una sezione              |")
-    print("|                    5) Esci                                       |")
+    print("|                    3) Trova Sezione Negozio                      |")
+    print("|                    4) Esci                                       |")
+    print("|                    5) Precision,Recall,Mae                       |")
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
     while scelta != '1' and scelta != '2' and scelta != '3' and scelta != '4' and scelta != '5':
@@ -29,11 +29,13 @@ if __name__ == '__main__':
     if scelta == '2':
         utente1.richiestafilm()
         suggerimento = SuggerisciFilm(utente1)
-    if scelta == '4':
+    if scelta == '3':
         utente1.inserisciinsezione()
         predicisezione.inseriscivalori(utente1)
-    if scelta == '5':
+    if scelta == '4':
         print("A PRESTO!")
         sys.exit()
+    if scelta == '5':
+        prezzo.datiPredizioni(prezzo.precisione,prezzo.richiamo,prezzo.maeTRAIN,prezzo.maeTEST)
 
 pass

@@ -9,6 +9,10 @@ from sklearn.neural_network._multilayer_perceptron import MLPClassifier
 class PrevisionePrezzo:
     model = MLPClassifier()
     film = pd.read_csv("dataset_completo.csv", delimiter=";")
+    maeTRAIN=0
+    maeTEST=0
+    precisione=0
+    richiamo=0
 
     def __init__(self):
         y = self.film.prezzo
@@ -23,18 +27,13 @@ class PrevisionePrezzo:
         p_train = self.model.predict(x_train)
         p_test = self.model.predict(x_test)
 
-        print("+------------------------------------------------------------------+")
-        print("+                DATI SULLE PREDIZIONI                             +")
-        print("+------------------------------------------------------------------+")
-
         self.calc_precision_recall(y_test, p_test)
 
         mae_train = mean_absolute_error(y_train, p_train)
         mae_test = mean_absolute_error(y_test, p_test)
+        self.maeTEST=mae_test
+        self.maeTRAIN=mae_train
 
-        print('+ MAE sul test set :', mae_test)
-        print('+ MAE sul train set :', mae_train)
-        print("+------------------------------------------------------------------+\n\n")
 
     @classmethod
     def prediciprezzo(cls, filminserito):
@@ -72,3 +71,19 @@ class PrevisionePrezzo:
             recall = 1
         sklpt.metrics.plot_confusion_matrix(y_true, y_pred)
         plt.show()
+        cls.precisione=precision
+        cls.richiamo=recall
+
+
+    @classmethod
+    def datiPredizioni(cls,precision,recall,mae_test,mae_train):
+
+        print("\n\n\n+------------------------------------------------------------------+")
+        print("+                      DATI SULLE PREDIZIONI                       +")
+        print("+------------------------------------------------------------------+")
+        print("+ Precision : ",precision)
+        print("+ Recall : ", recall)
+        print('+ MAE sul test set :', mae_test)
+        print('+ MAE sul train set :', mae_train)
+        print("+------------------------------------------------------------------+\n\n")
+

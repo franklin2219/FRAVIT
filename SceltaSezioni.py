@@ -1,8 +1,5 @@
 import pandas as pd
-from statistics import mean
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import LeaveOneOut
-from sklearn.model_selection import cross_val_score
 
 
 class ScegliSezioni:

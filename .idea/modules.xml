@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SimulatoreNoleggioAcquisto.iml" filepath="$PROJECT_DIR$/SimulatoreNoleggioAcquisto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FRAVIT.iml" filepath="$PROJECT_DIR$/FRAVIT.iml" />
     </modules>
   </component>
 </project>
