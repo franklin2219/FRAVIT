@@ -239,38 +239,44 @@ Il risultato della funzione ```Suggerisci nuovo film ``` sarà un determinato fi
 
 **ESEMPIO RETE NEURALE**:
 ---
-Predizione prezzo in base a dei valori inseriti in input:
+Predizione prezzo in base a degli esempi di valori inseriti in input:
 
 * Prezzo = 3 SE (voto = 1 ∧ anno = 1 ∧ durata = 1)
 * Prezzo = 4 SE (voto = 2 ∧ anno = 1 ∧ durata = 1)
-* Prezzo = 5 SE (voto = 3 ∧ anno = si ∧ durata = no) 
-* Prezzo = 6 SE (voto = 4 ∧ anno = si ∧ durata = no)
-* Prezzo = 7 SE (voto = 5 ∧ anno = no ∧ durata = no) 
-* Prezzo = 8 SE (voto = 6 ∧ anno = no ∧ durata = no) 
-* Prezzo = 9 SE (voto = 7 ∧ anno = si ∧ durata = no) 
-* Prezzo = 10 SE (voto = 8 ∧ anno = si ∧ durata = no) 
-* Prezzo = 11 SE (voto = 10 ∧ anno = no ∧ durata = no) 
-* Prezzo = 12 SE (voto = 11  ∧ anno = no ∧ durata = no) 
+* Prezzo = 5 SE (voto = 1 ∧ anno = 3 ∧ durata = 1) 
+* Prezzo = 6 SE (voto = 4 ∧ anno = 1 ∧ durata = 1)
+* Prezzo = 7 SE (voto = 1 ∧ anno = 2 ∧ durata = 4) 
+* Prezzo = 8 SE (voto = 3 ∧ anno = 3 ∧ durata = 2) 
+* Prezzo = 9 SE (voto = 3 ∧ anno = 3 ∧ durata = 3) 
+* Prezzo = 10 SE (voto = 4 ∧ anno = 4 ∧ durata = 2) 
+* Prezzo = 11 SE (voto = 5 ∧ anno = 4 ∧ durata = 2) 
+* Prezzo = 12 SE (voto = 8  ∧ anno = 2 ∧ durata = 2) 
 
 [Torna all'inizio](#Indice)
+
+### **Albero di decisione**
+Nel nostro applicativo è stata implementata una funzione che sfrutta il DecisionTreeClassifier. 
+Questo è in grado di suddividere un film o una serie TV in una determinata sezione presente all'interno del negozio, in base a delle caratteristiche del film/serie TV inseriti in input.
+I dati che vengono utilizzati sono:
+* Livello di ```Humor``` del film o serie TV ;
+* Livello di ```Ritmo``` del film o serie TV ;
+* Livello di ```Impegno``` del film o serie TV ;
+* Livello di ```Erotismo``` del film o serie TV ;
+* Livello di ```Tensione``` del film o serie TV ;
 
 ## **Implementazioni future**
 
 In futuro, alcune feature che potrebbero essere implementate sono:
 
 1. Inserimento GUI;
-2. Progetti con richieste dettagliate;
-3. Controlli sul numero di assunzioni;
-4. Consigli sull'assunzione di determinato personale in base ai tipi di progetti;
-5. Stima del tempo per il completamento di un progetto;
-6. Richiesta di particolari dipendenti in base alle tecnologie utilizzate all'interno di un progetto.
-7. Differenziare i comandi disponibili in base al tipo di utente che accede all'assistente.
+2. Inserimento gestione noleggio film e serie TV;
+3. Inserimento predizione mora su mancata restituzione di film o serie TV;
 
 [Torna all'inizio](#Indice)
 
 ## **Processo di sviluppo e organizzazione del lavoro**
 
-Il progetto è stato sviluppato a partire da Dicembre 2021 fino a metà Gennaio 2022 completamente in remoto.
+Il progetto è stato sviluppato a partire da fine gennaio 2022 fino a metà febbraio 2022, *completamente in remoto*.
 
 ## **Piattaforme di comunicazione**
 
@@ -279,25 +285,28 @@ Per la comunicazione, il nostro gruppo, ha adottato due piattaforme:
 * **[Microsoft Teams](https://discord.com/brand-new)**
 * **[Whatsapp](https://www.whatsapp.com/?lang=it)**
 
-La prima è stata scelta poichè una piattaforma a tutti i membri del gruppo familiare, la quale permetteva di organizzare videoconferenze e di condividere lo schermo. Ciò è stato molto utile nel momento in cui sorgevano difficoltà in quanto si poteva risolvere il problema tutti insieme.
+La prima è stata scelta poichè una piattaforma a tutti i membri del gruppo familiare, anche a causa del periodo pandemico attraversato,
+la quale permetteva di organizzare videoconferenze e di condividere lo schermo.
 
-<center><img src = "../Doc/photo/teams.png"></center>
+Ciò è stato molto utile nel momento in cui sorgevano difficoltà in quanto si poteva risolvere il problema tutti insieme.
 
-La seconda è stata scelta poichè, essendo anche questa familiare, era il mezzo di comunicazione più immediata. Tramite questa piattaforma, è stato possibile confrontarsi durante lo sviluppo, decidere i giorni e gli orari per i nostri meeting e tenersi contatto.
+<center><img src = "../Doc/photo/Schermata_teams.png"></center>
 
-<center><img src = "../Doc/photo/whatsappIcon.png"></center>
+La seconda è stata scelta poichè era il mezzo di comunicazione più immediata. Tramite questa piattaforma, è stato possibile confrontarsi durante lo sviluppo, decidere i giorni e gli orari per le nostre chiamate e per tenerci contatto.
+
+<center><img src = "../Doc/photo/LogoWhatsapp.png"></center>
 
 [Torna all'inizio](#Indice)
 
 ## **Conclusioni**
 
-Come detto in precedenza, riteniamo che questo progetto sia stato un importante banco di prova. Nonostante le difficoltà siamo riusciti comunque a centrare gli obiettivi stabiliti e a trarre il meglio da questa esperienza formativa.
+Come detto in precedenza, riteniamo che questo progetto sia stato un banco di prova. Nonostante le difficoltà riscontrate siamo riusciti comunque a rispettare gli obiettivi stabiliti e a trarre il meglio da questa esperienza formativa.
 
 Rigraziamo per l'attenzione. 
 
 <center>
 
-Lo staff, **[FARIDA](https://github.com/RickNewere/FARIDA.git)**
+Lo staff, **[FRAVIT]**
 
 </center>
 
