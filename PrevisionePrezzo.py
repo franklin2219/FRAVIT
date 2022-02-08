@@ -17,8 +17,6 @@ class PrevisionePrezzo:
         y = y.astype('int')
         x = x.astype('int')
 
-        print(x, y)
-
         # divido x e y in modo da avere una parte per il training e una per il test
         x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=1)
 
@@ -29,14 +27,18 @@ class PrevisionePrezzo:
         p_test = self.model.predict(x_test)  # p_test contiene le predizioni(y) sui dati x di test
 
         # calcolo accuratezza del sistema
-        print(f'L\'accuratezza reale sulle predizioni fatte e\' di {metrics.balanced_accuracy_score(y_test, p_test)}')
+        print("+------------------------------------------------------------------+")
+        print("+                DATI SULLE PREDIZIONI                             +")
+        print("+------------------------------------------------------------------+")
+        print(f'+ L\'accuratezza reale sulle predizioni fatte e\' di : {metrics.balanced_accuracy_score(y_test, p_test)}')
 
         # calcolo errori
         mae_train = mean_absolute_error(y_train, p_train)
         mae_test = mean_absolute_error(y_test, p_test)
 
-        print('MAE test', mae_test)
-        print('MAE train', mae_train)
+        print('+ MAE sul test set :', mae_test)
+        print('+ MAE sul train set :', mae_train)
+        print("+------------------------------------------------------------------+\n\n")
 
     @classmethod
     def prediciprezzo(cls, filminserito):
@@ -44,4 +46,4 @@ class PrevisionePrezzo:
                                     "anno_completo": [filminserito.peso_anno],
                                     "durata_completa": [filminserito.peso_durata]})
         pred_y = cls.model.predict(pred_x)
-        print(pred_y)
+        print("Il prezzo per il film e' di : ",pred_y,"euro")

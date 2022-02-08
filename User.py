@@ -119,4 +119,5 @@ class Utente:
             print("1: piu' di 20 anni fa")
             print("2: dal 2002 al 2012")
             print("3: dal 2012 al 2021")
-            cls.peso_anno = int(input("4: dal 2021 in poi: "))
+            print("4: dal 2021 in poi: ")
+            cls.peso_anno = int(input("--> "))

@@ -1,6 +1,8 @@
 from User import Utente
-from ReteNeurale import PrevisionePrezzo
+import sys
+from PrevisionePrezzo import PrevisionePrezzo
 from SuggerimentoFilm import SuggerisciFilm
+from SchermataSecondaria import MenuGestioneFilm
 
 if __name__ == '__main__':
     utente1 = Utente()
@@ -13,10 +15,11 @@ if __name__ == '__main__':
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     print("|                    1) Inserisci nuovo film                       |")
     print("|                    2) Suggerisci film                            |")
-    print("|                                                                  |")
+    print("|                    3) Menu film                                  |")
+    print("|                    4) Esci                                       |")
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
-    while scelta != '1' and scelta != '2':
+    while scelta != '1' and scelta != '2' and scelta != '3' and scelta != '4':
         scelta = input("Inserisci il numero dell'operazione da effettuare : ")
 
     if scelta == '1':
@@ -25,4 +28,9 @@ if __name__ == '__main__':
     if scelta == '2':
         utente1.richiestafilm()
         suggerimento = SuggerisciFilm(utente1)
+    if scelta == '3':
+        MenuGestioneFilm()
+    if scelta == '4':
+        sys.exit()
+
 pass
