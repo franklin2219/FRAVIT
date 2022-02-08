@@ -20,7 +20,7 @@ if __name__ == '__main__':
     print("|                    5) Esci                                       |")
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
-    while scelta != '1' and scelta != '2' and scelta != '3' and scelta != '4':
+    while scelta != '1' and scelta != '2' and scelta != '3' and scelta != '4'  and scelta != '5':
         scelta = input("Inserisci il numero dell'operazione da effettuare : ")
 
     if scelta == '1':

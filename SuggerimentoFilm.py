@@ -8,7 +8,7 @@ class SuggerisciFilm:
         film = pd.read_csv("dataset_completo.csv", delimiter=";")
 
         y = film.titolo_italiano
-        x = film[["humor", "ritmo", "impegno", "tensione", "erotismo", "genere_convertito", "anno_completo"]]
+        x = film[["humor", "ritmo", "impegno", "tensione", "genere_convertito", "anno_completo"]]
 
         # definisco che sia x che y non sono interi
         y = y.astype('string')
@@ -25,7 +25,6 @@ class SuggerisciFilm:
 
         pred_x = pd.DataFrame(data={"humor": [filminserito.humor], "ritmo": [filminserito.ritmo],
                                     "impegno": [filminserito.impegno], "tensione": [filminserito.tensione],
-                                    "erotismo": [filminserito.erotismo],
                                     "genere_convertito": [filminserito.genere_numerico],
                                     "anno_completo": [filminserito.peso_anno]})
         pred_y = model.predict(pred_x)

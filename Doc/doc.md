@@ -119,109 +119,138 @@ Abbiamo dotato il nostro applicativo di un menù che permetterà di interagire c
 * ```Visualizza Ultimo film con il relativo prezzo ```;
 * ```Torna indietro```;
 
-### **Classificatore**
+### **Rete Neurale**
 
-Il programma è stato dotato di una funzione che sfrutta un classificatore per determinare la classe salariale a cui apparterrà l'utente una volta assunto.
+Il programma è stato dotato di una funzione che sfrutta un classificatore per determinare il prezzo a cui apparterrà un determinato film o una serie TV inseriti in input.
 Abbiamo utilizzato un [file CSV](https://it.wikipedia.org/wiki/Comma-separated_values) per addestrare il nostro classificatore. Le informazioni che l'utente deve inserire sono:
 
-* ```Age```;
-* ```Sex```;
-* ```Years Experience```;
-* ```Salary```.
+* ```Titolo originale```;
+* ```Titolo in italiano```;
+* ```Anno```;
+* ```Genere```;
+* ```Durata```;
+* ```Voto```;
+* ```Humor```;
+* ```Ritmo```;
+* ```Impegno```;
+* ```Tensione```;
 
 Ad ogni campo sono stati associati i seguenti valori:
 
-* Per l'età, un intero;
-* Per il sesso, sono stati mappati i valori nella seguente modalità:
+* Per il titolo originale ed il titolo in italiano, una stringa;
+* Per l'anno, un intero successivamente modificato in :
+
 <center>
 
-| Sex = Male | Sex = Female |
-|---|--------------|
-| 0 | 1            | 
+| anno >= 2021 | anno >= 2012 | anno >= 2002 | altrimenti |
+|---|--------------|--------|---------|
+| 4 | 3           | 2       | 1       |
 
 </center>
 
-* Per l'esperienza in azienda, un float;
-* Per il salario annuale, un range di valori.
+* Per il genere, una stringa successivamente modificato in :
+<center>
 
-Il risultato della funzione ```calcola_salario``` sarà un range di salario a cui l'utente potrà ambire. Fornito l'esempio, l'algoritmo restituisce la classe a cui potrebbe appertenere. Le classi possibili sono:
+| Animazione | Drammatico | Sentimentale | Commedia | Poliziesco |
+|---|--------------|--------|---------|-------|
+| 1 | 2            | 3       | 4       | 5     |
 
-* ```20000-30000€```;
-* ```30000-40000€```;
-* ```40000-50000€```;
-* ```50000-60000€```;
-* ```60000-70000€```.
+</center>
 
-Inoltre con il comando ```accuratezza_classificatore``` sarà restituita l'accuratezza del classificatore, calcolata con
-l'algoritmo 'leave-one-out cross validation'. Questo algoritmo è stato utilizzato perche il dataset essendo stato scritto da noi, ha pochi esempi, quindi per valutare un dataset con pochi elementi è opportuno utilizzare questo algoritmo.
-### **Rete Bayesiana**
+<center>
 
-Nel nostro applicativo è stata implementata una funzione che sfrutta una Rete Bayesiana. Questa è in grado di predire la percentuale di possibilità di assunzione dell'utente nell'azienda. L'assistente, infatti, ponendo delle domande 
-all'utente, calcolerà un float compreso tra 0 e 1, che moltiplicato per 100 darà come risultato la percentuale di possibilità di assunzione. In base alla percentuale restituita:
-* se la percentuale è ```< 26%``` la predizione rientrerà nella fascia ```bassa```;
-* se la percentuale è ```< 40%``` la predizione rientrerà nella fascia ```medio-bassa```;
-* se la percentuale è ```< 50%``` la predizione rientrerà nella fascia ```media```;
-* se la percentuale è ```< 70%``` la predizione rientrerà nella fascia ```medio-alta```;
-* se la percentuale è ```>= 70%``` la predizione rientrerà nella fascia ```alta```.
+| Thriller | Avventura | Documentario | Horror | Azione |
+|---|--------------|--------|---------|-------|
+| 6 | 7            | 8       | 9       | 10     |
 
-Ogni risposta è pesata differentemente e queste percentuali sono determinate da:
+</center>
+<center>
 
-* **Titolo**: titolo di studio conseguito dall'utente;  
-* **Esperienza Pregressa**: se l'utente ha mai lavorato in un'azienda;
-* **Valore Personale**: padre di ```Titolo``` e di ```Esperienza pregressa```;
-* **Passione Informatica**: se l'utente è appassionato al mondo informatico;
-* **Sviluppo Web**: preferenza tra programmazione [Back End](https://www.geekandjob.com/carriera/back-end-developer) e programmazione [Front End](https://www.a-sapiens.it/informatica/risorse/come-diventare-front-end-developer/);
-* **Valore Informatico**: padre di ```Passione Informatica``` e di ```Sviluppo Web```;
-* **Punteggio Personale**: padre di ```Valore Personale``` e di ```Valore Informatico```;
-* **Conoscenza Java**: se l'utente conosce il linguaggio di programmazione [Java](https://it.wikipedia.org/wiki/Java_(linguaggio_di_programmazione));
-* **Conoscenza Python**: se l'utente conosce il linguaggio di programmazione [Python](https://it.wikipedia.org/wiki/Python)
-* **Conoscenza Linguaggi**: padre di ```Conoscenza Java``` e di ```Conoscenza Python```;
-* **Conoscenza MySQL**: se l'utente conosce il linguaggio di riferimento per database relazionali [MySQL](https://it.wikipedia.org/wiki/MySQL);
-* **Conoscenza MongoDB**: se l'utente conosce il linguaggio di riferimento per database non relazionali [MongoDB](https://it.wikipedia.org/wiki/MongoDB);
-* **Conoscenza DB**: padre di ```Conoscenza MySQL``` e di ```Conoscenza MongoDB```;
-* **Valore Lavorativo**: padre di ```Conoscenza Linguaggi``` e di ```Conoscenza DB```;
-* **Previsione Assunzione**: padre di ```Punteggio Personale``` e di ```Valore Lavorativo```;
+| Catastrofico | Western | Spionaggio | Biografico | Musicale |
+|---|--------------|--------|---------|-------|
+| 11 | 12            | 13       | 14       | 15     |
+
+</center>
+
+<center>
+
+| Fantasy | Guerra | Grottesco | Gangster | Mitologico |
+|---|--------------|--------|---------|-------|
+| 16 | 17            | 18       | 19       | 20     |
+
+</center>
+
+<center>
+
+| Storico | Noir | Supereroi | Biblico | Sportivo |
+|---|--------------|--------|---------|-------|
+| 21 | 22            | 23       | 24       | 25     |
+
+</center>
+
+<center>
+
+| Sperimentale | Cortometraggio | 
+|---|--------------|
+| 26 | 27            | 
+
+</center>
+* Per il voto, un range di valori interi da 1 a 10 successivamente modificato in :
+
+<center>
+
+| voto >= 8 | voto >= 5 | voto >= 3 | altrimenti |
+|---|--------------|--------|---------|
+| 4 | 3           | 2       | 1       |
+
+</center>
+
+*Per la durata, un intero successivamente modificato in : 
+<center>
+
+| durata < 90 | durata < 120 | durata < 140 | altrimenti |
+|---|--------------|--------|---------|
+| 1 | 2           | 3       | 4       |
+
+</center>
+
+Il risultato della funzione ```Inserisci nuovo film ``` sarà il prezzo alla quale quel determinato film o serie TV potrà esser venduto.
+
+**ESEMPIO PREDIZIONE PREZZO FILM/SERIE TV**:
+<center><img src = "photo/PredizionePrezzo.png"></center>
+
+### **K-nearest_neighbors**
+
+Nel nostro applicativo è stata implementata una funzione che sfrutta il K-nearest_neighbors. Questo è in grado di suggerire un film o una serie TV presente all'interno del dataset. L'assistente, infatti, ponendo delle domande 
+all'utente otterrà abbastanza dati per poter effettuare il suggerimento. In base ai dati:
+* ```Genere``` del film o della serie TV che si desidera vedere;
+* ```Anno```, periodo cinematografico del film o della serie TV che si desidera guardare;
+* Livello di ```Humor``` del film o serie TV che si desidera guardare;
+* Livello di ```Ritmo``` del film o serie TV che si desidera guardare;
+* Livello di ```Impegno``` del film o serie TV che si desidera guardare;
+* Livello di ```Erotismo``` del film o serie TV che si desidera guardare;
+* Livello di ```Tensione``` del film o serie TV che si desidera guardare; 
+  
+Il risultato della funzione ```Suggerisci nuovo film ``` sarà un determinato film o serie TV in base agli input forniti.
+
+**ESEMPIO SUGGERIMENTO FILM/SERIE TV**:
+<center><img src = "photo/SuggerimentoFilm.png"></center>
 
 
-**ESEMPI RETE BAYESIANA**:
+**ESEMPIO RETE NEURALE**:
 ---
-* P(titoloStudio = laurea) = 0.70                 
-* P(titoloStudio = diploma) = 0.25
-* P(titoloStudio = titolo inferiore) = 0.05
+Predizione prezzo in base a dei valori inseriti in input:
 
-* P(esperienzaPregressa = si) = 0.85
-* P(esperienzaPregressa = no) = 0.15
-
-
-* P(ValorePersonale=ottimo | titoloStudio = laurea ∧ esperienzaPregressa= si) = 0.98
-* P(ValorePersonale=scarso | titoloStudio = laurea ∧ esperienzaPregressa= si) = 0.02
-* P(ValorePersonale=ottimo | titoloStudio = laurea ∧ esperienzaPregressa= no) = 0.75
-* P(ValorePersonale=scarso | titoloStudio = laurea ∧ esperienzaPregressa= no) = 0.25
-* P(ValorePersonale=ottimo | titoloStudio = diploma ∧ esperienzaPregressa= si) = 0.6
-* P(ValorePersonale=scarso | titoloStudio = diploma ∧ esperienzaPregressa= si) = 0.4
-* P(ValorePersonale=ottimo | titoloStudio = diploma ∧ esperienzaPregressa= no) = 0.51
-* P(ValorePersonale=scarso | titoloStudio = diploma ∧ esperienzaPregressa= no) = 0.49
-* P(ValorePersonale=ottimo | titoloStudio = titolo inferiore ∧ esperienzaPregressa= si) = 0.15
-* P(ValorePersonale=scarso | titoloStudio = titolo inferiore ∧ esperienzaPregressa= si) = 0.85
-* P(ValorePersonale=ottimo | titoloStudio = titolo inferiore ∧ esperienzaPregressa= no) = 0.05
-* P(ValorePersonale=scarso | titoloStudio = titolo inferiore ∧ esperienzaPregressa= no) = 0.95
-
-
-* P(passioneInformatica = si) = 0.85
-* P(passioneInformatica = no) = 0.15
-
-* P(sviluppoWeb = back end) = 0.71
-* P(sviluppoWeb = front end) = 0.29
-
-
-* P(ValoreInformatico = ottimo | passioneInformatica = si ∧ sviluppoWeb = back end) = 0.8
-* P(ValoreInformatico = scarso | passioneInformatica = si ∧ sviluppoWeb = back end) = 0.2
-* P(ValoreInformatico = ottimo | passioneInformatica = si ∧ sviluppoWeb = front end) = 0.73
-* P(ValoreInformatico = scarso | passioneInformatica = si ∧ sviluppoWeb = front end) = 0.27
-* P(ValoreInformatico = ottimo | passioneInformatica = no ∧ sviluppoWeb = back end) = 0.33
-* P(ValoreInformatico = scarso | passioneInformatica = no ∧ sviluppoWeb = back end) = 0.67
-* P(ValoreInformatico = ottimo | passioneInformatica = no ∧ sviluppoWeb = front end) = 0.02
-* P(ValoreInformatico = scarso | passioneInformatica = no ∧ sviluppoWeb = front end) = 0.98
+* Prezzo = 3 SE (voto = 1 ∧ anno = 1 ∧ durata = 1)
+* Prezzo = 4 SE (voto = 2 ∧ anno = 1 ∧ durata = 1)
+* Prezzo = 5 SE (voto = 3 ∧ anno = si ∧ durata = no) 
+* Prezzo = 6 SE (voto = 4 ∧ anno = si ∧ durata = no)
+* Prezzo = 7 SE (voto = 5 ∧ anno = no ∧ durata = no) 
+* Prezzo = 8 SE (voto = 6 ∧ anno = no ∧ durata = no) 
+* Prezzo = 9 SE (voto = 7 ∧ anno = si ∧ durata = no) 
+* Prezzo = 10 SE (voto = 8 ∧ anno = si ∧ durata = no) 
+* Prezzo = 11 SE (voto = 10 ∧ anno = no ∧ durata = no) 
+* Prezzo = 12 SE (voto = 11  ∧ anno = no ∧ durata = no) 
 
 [Torna all'inizio](#Indice)
 
