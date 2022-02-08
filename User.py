@@ -97,7 +97,7 @@ class Utente:
             cls.genere_numerico = int(input("Inserisci il genere di Film/SerieTv che ti piacerebbe vedere :"))
 
         while cls.humor < 0 or cls.humor > 5:
-            cls.humor = int(input("Inserisci il valore il livello di Humor tra 0 a 5 :"))
+            cls.humor = int(input("Inserisci il valore il livello di humor tra 0 a 5 :"))
 
         while cls.ritmo < 0 or cls.ritmo > 5:
             cls.ritmo = int(input("Inserisci il valore il livello di ritmo tra 0 a 5 :"))
@@ -115,3 +115,17 @@ class Utente:
             print("3: dal 2012 al 2021")
             print("4: dal 2021 in poi: ")
             cls.peso_anno = int(input("--> "))
+
+    @classmethod
+    def inserisciinsezione(cls):
+        while cls.humor < 0 or cls.humor > 5:
+            cls.humor = int(input("Inserisci il valore il livello di humor tra 0 a 5 :"))
+
+        while cls.ritmo < 0 or cls.ritmo > 5:
+            cls.ritmo = int(input("Inserisci il valore il livello di ritmo tra 0 a 5 :"))
+
+        while cls.impegno < 0 or cls.impegno > 5:
+            cls.impegno = int(input("Inserisci il valore il livello di impegno tra 0 a 5 :"))
+
+        while cls.tensione < 0 or cls.tensione > 5:
+            cls.tensione = int(input("Inserisci il valore il livello di tensione tra 0 a 5 :"))

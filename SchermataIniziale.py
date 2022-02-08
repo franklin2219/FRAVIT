@@ -3,11 +3,12 @@ import sys
 from PrevisionePrezzo import PrevisionePrezzo
 from SuggerimentoFilm import SuggerisciFilm
 from SchermataSecondaria import MenuGestioneFilm
+from SceltaSezioni import ScegliSezioni
 
 if __name__ == '__main__':
     utente1 = Utente()
     prezzo = PrevisionePrezzo()
-
+    predicisezione = ScegliSezioni()
     scelta = 0
 
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
@@ -16,7 +17,8 @@ if __name__ == '__main__':
     print("|                    1) Inserisci nuovo film                       |")
     print("|                    2) Suggerisci film                            |")
     print("|                    3) Menu film                                  |")
-    print("|                    4) Esci                                       |")
+    print("|                    4) Inserisci film in una sezione              |")
+    print("|                    5) Esci                                       |")
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
     while scelta != '1' and scelta != '2' and scelta != '3' and scelta != '4':
@@ -31,6 +33,9 @@ if __name__ == '__main__':
     if scelta == '3':
         MenuGestioneFilm()
     if scelta == '4':
+        utente1.inserisciinsezione()
+        predicisezione.inseriscivalori(utente1)
+    if scelta == '5':
         sys.exit()
 
 pass
