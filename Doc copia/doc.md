@@ -51,7 +51,7 @@ La prima volta che si importa il progetto, la compilazione potrebbe richiedere q
 
 Quando il programma sarà avviato verrà visualizzato la schermata principale a linea di comando:
 
-<center><img src = "photo/Schermata_principale.PNG"></center>
+<center><img src = "photo/Schermata_principale.png"></center>
 
 Se avviato correttammente da questo momento in poi si potranno utilizzare i seguenti comandi:
 
@@ -73,7 +73,7 @@ Vengono gestiti tutti i casi in cui l'utente inserisce un input errato!
 
 Di seguito un esempio di interazione con il sistema : 
 
-<center><img src = "photo/Esempio_interazione.PNG"></center>
+<center><img src = "photo/Esempio_interazione.png"></center>
 
 [Torna all'inizio](#Indice)
 
