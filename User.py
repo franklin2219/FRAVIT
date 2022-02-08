@@ -1,4 +1,3 @@
-# Iterazione con l'utente per l'inserimento dei film nella piattaforma
 class Utente:
     titolo = ""
     titolo_italiano = ""
@@ -26,14 +25,7 @@ class Utente:
             cls.durata = int(input("Definisci la durata del film/serieTV :"))
         while cls.voto < 1 or cls.voto > 10:
             cls.voto = int(input("Inserisci il voto (un numero da 1 a 10) :"))
-        while cls.humor < 0 or cls.humor > 5:
-            cls.humor = int(input("Inserisci il valore il livello di Humor tra 0 a 5 : "))
-        while cls.ritmo < 0 or cls.ritmo > 5:
-            cls.ritmo = int(input("Inserisci il valore il livello di ritmo tra 0 a 5 : "))
-        while cls.impegno < 0 or cls.impegno > 5:
-            cls.impegno = int(input("Inserisci il valore il livello di impegno tra 0 a 5 : "))
-        while cls.tensione < 0 or cls.tensione > 5:
-            cls.tensione = int(input("Inserisci il valore il livello di tensione tra 0 a 5 : "))
+        cls.inserisciinsezione()
 
         if cls.anno >= 2021:
             cls.peso_anno = 4
@@ -96,17 +88,7 @@ class Utente:
         while cls.genere_numerico <= 0 or cls.genere_numerico >= 28:
             cls.genere_numerico = int(input("Inserisci il genere di Film/SerieTv che ti piacerebbe vedere :"))
 
-        while cls.humor < 0 or cls.humor > 5:
-            cls.humor = int(input("Inserisci il valore il livello di humor tra 0 a 5 :"))
-
-        while cls.ritmo < 0 or cls.ritmo > 5:
-            cls.ritmo = int(input("Inserisci il valore il livello di ritmo tra 0 a 5 :"))
-
-        while cls.impegno < 0 or cls.impegno > 5:
-            cls.impegno = int(input("Inserisci il valore il livello di impegno tra 0 a 5 :"))
-
-        while cls.tensione < 0 or cls.tensione > 5:
-            cls.tensione = int(input("Inserisci il valore il livello di tensione tra 0 a 5 :"))
+        cls.inserisciinsezione()
 
         while cls.peso_anno < 1 or cls.peso_anno > 4:
             print("Inserisci il periodo cinematografico che preferisci:")
@@ -120,12 +102,9 @@ class Utente:
     def inserisciinsezione(cls):
         while cls.humor < 0 or cls.humor > 5:
             cls.humor = int(input("Inserisci il valore il livello di humor tra 0 a 5 :"))
-
         while cls.ritmo < 0 or cls.ritmo > 5:
             cls.ritmo = int(input("Inserisci il valore il livello di ritmo tra 0 a 5 :"))
-
         while cls.impegno < 0 or cls.impegno > 5:
             cls.impegno = int(input("Inserisci il valore il livello di impegno tra 0 a 5 :"))
-
         while cls.tensione < 0 or cls.tensione > 5:
             cls.tensione = int(input("Inserisci il valore il livello di tensione tra 0 a 5 :"))
