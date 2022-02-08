@@ -18,4 +18,4 @@ class ScegliSezioni:
     def inseriscivalori(cls, film):
         pred_x = [[film.humor, film.ritmo, film.impegno, film.tensione]]
         pred_y = cls.model.predict(pred_x)
-        print(pred_y)
+        print("Il film o la serie TV dovranno esser riposti nella sezione : ",pred_y)

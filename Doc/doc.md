@@ -57,10 +57,15 @@ Quando il programma sarà avviato verrà visualizzato la schermata principale a 
 
 Se avviato correttammente da questo momento in poi si potranno utilizzare i seguenti comandi:
 
-* ```Inserisci nuovo Film``` - comando che viene suggerito dal banner iniziale, e che se invocato permette di inserire i dati di un nuovo film che dovrà essere inserito nel negozio in modo tale da comprendere quale sarà il suo prezzo.
+* ```Predici Prezzo``` - comando che viene suggerito dal banner iniziale, e che se invocato permette di inserire i dati di un nuovo film che dovrà essere inserito nel negozio in modo tale da comprendere quale sarà il suo prezzo.
 * ```Suggerisci Film``` - comando che viene suggerito dal banner iniziale, e che se invocato permette di inserire i dati relativi ai gusti del cliente permettendo a FRAVIT di suggerire uno tra i film presenti nel dataset e che rispetteranno i gusti forniti.
-* ```Insirisci Film in una sezione``` - comando che viene suggerito dal banner iniziale, e che permette di inserire i dati relativi al film/serieTV di cui si vuole comprendere la sezione e si otterrà la sezione nella quale quel determinato film/serieTV deve essere posto.
+* ```Trova Sezione Negozio``` - comando che viene suggerito dal banner iniziale, e che permette di inserire i dati relativi al film/serieTV di cui si vuole comprendere la sezione e si otterrà la sezione nella quale quel determinato film/serieTV deve essere posto.
 * ```Esci``` - comando per terminare l'applicazione.
+* ```Precision,Recall,Mae``` - comando che viene suggerito dal banner iniziale, e che permette di visionare i dati relativi alla precision, alla recall ed al Mae sul train/test.
+
+Inserendo il comando Precision,Recall,Mae verrà visualizzata la seguente schermata:
+
+<center><img src = "photo/SchermataPRM.png"></center>
 
 Una volta terminato correttamente il programma, verrà visualizzato a linea di comando il seguente messaggio:
 
@@ -80,11 +85,11 @@ Di seguito un esempio di interazione con il sistema nel caso si voglia comprende
 
 Di seguito un esempio di interazione con il sistema nel caso si voglia suggerire film/serieTV:
 
-<center><img src = "photo/Esempio_interazione.png"></center>
+<center><img src = "photo/Esempio_interazione2.png"></center>
 
-Di seguito un esempio di interazione con il sistema nel caso si voglia inserire un nuovo film/serieTV in una sezione:
+Di seguito un esempio di interazione con il sistema nel caso si voglia comprendere la sezione di un nuovo film/serieTV:
 
-<center><img src = "photo/Esempio_interazione.png"></center>
+<center><img src = "photo/Esempio_interazione3.png"></center>
 
 [Torna all'inizio](#Indice)
 
@@ -111,13 +116,23 @@ Verrà richiesto il genere di film che si intende vedere,il periodo cinematograf
 
 ### **Base di Conoscenza**
 
-Abbiamo dotato il nostro applicativo di un menù che permetterà di interagire con le informazioni presenti nel dataset utilizzando i seguenti comandi:
-
-* ```Visualizza Film/Serie TV```;
-* ```Visualizza Generi presenti```;
-* ```Visualizza Ultimo film suggerito```;
-* ```Visualizza Ultimo film con il relativo prezzo ```;
-* ```Torna indietro```;
+Dataset contenente informazioni relativi ai film e serie TV usciti durante gli anni. Contenente le seguenti colonne:
+- filmtv_id;
+- titolo_originale;
+- titolo_italiano;
+- anno;genere;
+- durata;
+- voto;
+- humor;
+- ritmo;
+- impegno;
+- tensione;
+- prezzo;
+- anno_completo;
+- durata_completa;
+- voto_completo;
+- genere_convertito;
+- sezione
 
 ### **Rete Neurale**
 
@@ -214,7 +229,7 @@ Ad ogni campo sono stati associati i seguenti valori:
 
 </center>
 
-Il risultato della funzione ```Inserisci nuovo film ``` sarà il prezzo alla quale quel determinato film o serie TV potrà esser venduto.
+Il risultato della funzione ```Predici Prezzo ``` sarà il prezzo alla quale quel determinato film o serie TV potrà esser venduto.
 
 **ESEMPIO PREDIZIONE PREZZO FILM/SERIE TV**:
 <center><img src = "photo/PredizionePrezzo.png"></center>
@@ -264,6 +279,9 @@ I dati che vengono utilizzati sono:
 * Livello di ```Erotismo``` del film o serie TV ;
 * Livello di ```Tensione``` del film o serie TV ;
 
+**ESEMPIO SUGGERIMENTO FILM/SERIE TV**:
+<center><img src = "photo/Sezione.png"></center>
+
 ## **Implementazioni future**
 
 In futuro, alcune feature che potrebbero essere implementate sono:
@@ -293,8 +311,6 @@ Ciò è stato molto utile nel momento in cui sorgevano difficoltà in quanto si 
 <center><img src = "../Doc/photo/Schermata_teams.png"></center>
 
 La seconda è stata scelta poichè era il mezzo di comunicazione più immediata. Tramite questa piattaforma, è stato possibile confrontarsi durante lo sviluppo, decidere i giorni e gli orari per le nostre chiamate e per tenerci contatto.
-
-<center><img src = "../Doc/photo/LogoWhatsapp.png"></center>
 
 [Torna all'inizio](#Indice)
 
