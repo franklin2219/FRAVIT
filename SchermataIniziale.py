@@ -2,7 +2,6 @@ from User import Utente
 import sys
 from PrevisionePrezzo import PrevisionePrezzo
 from SuggerimentoFilm import SuggerisciFilm
-from SchermataSecondaria import MenuGestioneFilm
 from SceltaSezioni import ScegliSezioni
 
 if __name__ == '__main__':
@@ -30,8 +29,6 @@ if __name__ == '__main__':
     if scelta == '2':
         utente1.richiestafilm()
         suggerimento = SuggerisciFilm(utente1)
-    if scelta == '3':
-        MenuGestioneFilm()
     if scelta == '4':
         utente1.inserisciinsezione()
         predicisezione.inseriscivalori(utente1)

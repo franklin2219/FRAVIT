@@ -2,6 +2,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 from sklearn import metrics
+import matplotlib.pyplot as plt
+import scikitplot as sklpt
 from sklearn.neural_network._multilayer_perceptron import MLPClassifier
 
 
@@ -30,8 +32,8 @@ class PrevisionePrezzo:
         print("+------------------------------------------------------------------+")
         print("+                DATI SULLE PREDIZIONI                             +")
         print("+------------------------------------------------------------------+")
-        print(f'+ L\'accuratezza reale sulle predizioni fatte e\' di : {metrics.balanced_accuracy_score(y_test, p_test)}')
-
+       # print(f'+ L\'accuratezza reale sulle predizioni fatte e\' di : {metrics.balanced_accuracy_score(y_test, p_test)}')
+        self.calc_precision_recall(y_test,p_test)
         # calcolo errori
         mae_train = mean_absolute_error(y_train, p_train)
         mae_test = mean_absolute_error(y_test, p_test)
@@ -47,3 +49,38 @@ class PrevisionePrezzo:
                                     "durata_completa": [filminserito.peso_durata]})
         pred_y = cls.model.predict(pred_x)
         print("Il prezzo per il film e' di : ",pred_y,"euro")
+
+    @classmethod
+    def calc_precision_recall(cls,y_true,y_pred):
+
+        # Convert predictions to series with index matching y_true
+        y_pred = pd.Series(y_pred, index=y_true.index)
+
+        # Instantiate counters
+        TP = 0
+        FP = 0
+        FN = 0
+        # Determine whether each prediction is TP, FP, TN, or FN
+        for i in y_true.index:
+            if y_true[i]==y_pred[i]:
+                TP += 1
+            if y_true[i]!=y_pred[i]:
+                FP += 1
+            if y_pred[i]=="" and y_true[i]!=y_pred[i]:
+                FN += 1
+
+        # Calculate true positive rate and false positive rate
+        # Use try-except statements to avoid problem of dividing by 0
+        try:
+            precision = TP / (TP + FP)
+        except:
+            precision = 1
+
+        try:
+            recall = TP / (TP + FN)
+        except:
+            recall = 1
+        sklpt.metrics.plot_confusion_matrix(y_true,y_pred)
+        plt.show()
+
+
