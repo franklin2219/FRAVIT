@@ -6,11 +6,10 @@ class Utente:
     genere = ""
     durata = 0
     voto = 0
-    humor = 6
-    ritmo = 6
-    impegno = 6
-    tensione = 6
-    erotismo = 6
+    humor = -1
+    ritmo = -1
+    impegno = -1
+    tensione = -1
     peso_anno = 0
     peso_voto = 0
     peso_durata = 0
@@ -35,8 +34,6 @@ class Utente:
             cls.impegno = int(input("Inserisci il valore il livello di impegno tra 0 a 5 : "))
         while cls.tensione < 0 or cls.tensione > 5:
             cls.tensione = int(input("Inserisci il valore il livello di tensione tra 0 a 5 : "))
-        while cls.erotismo < 0 or cls.erotismo > 5:
-            cls.erotismo = int(input("Inserisci il valore il livello di erotismo tra 0 a 5 : "))
 
         if cls.anno >= 2021:
             cls.peso_anno = 4
@@ -110,9 +107,6 @@ class Utente:
 
         while cls.tensione < 0 or cls.tensione > 5:
             cls.tensione = int(input("Inserisci il valore il livello di tensione tra 0 a 5 :"))
-
-        while cls.erotismo < 0 or cls.erotismo > 5:
-            cls.erotismo = int(input("Inserisci il valore il livello di erotismo tra 0 a 5 :"))
 
         while cls.peso_anno < 1 or cls.peso_anno > 4:
             print("Inserisci il periodo cinematografico che preferisci:")
