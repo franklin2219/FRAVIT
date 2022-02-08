@@ -33,6 +33,7 @@ if __name__ == '__main__':
         utente1.inserisciinsezione()
         predicisezione.inseriscivalori(utente1)
     if scelta == '5':
+        print("A PRESTO!")
         sys.exit()
 
 pass

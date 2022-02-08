@@ -22,8 +22,9 @@ L'applicativo software è stato sviluppato dal gruppo composto da:
 Il nome dell'applicativo sono le iniziali del nome dei membri del gruppo.
 
 L'assistente virtuale intelligente **FRAVIT** nasce con lo scopo di aiutare i negozi locali che si occupano della vendita
-di film e serie TV, nel comprendere quale debba essere il prezzo e nella suggerire un determinato film o una serire TV
-ai clienti che ne fanno richiesta.
+di film e serie TV in DVD, nel comprendere quale debba essere il prezzo,nel suggerire un determinato film o una serire TV
+ai clienti che ne fanno richiesta e nel comprendere un nuovo film o serie TV in quale sezione del negozio debba essere posizionato.
+(Suddivisi in base alle caratteristiche del film o della serie TV)
 
 Si è scelto di utilizzare un dataset già preesistente in rete, in modo tale da poter utilizzare come base di conoscenza 
 dei dati sufficienti per ottenere gli obiettivi stabiliti.
@@ -41,6 +42,7 @@ Per avviare correttamente il programma è necessario installare:
 * 'numpy' tramite il comando da terminale ```pip install numpy``` per la predizione;
 * 'pandas' tramite il comando da terminale ```pip install pandas``` per il classificatore;
 * 'sklearn.tree' tramite il comando da terminale ```pip install scikit-learn``` per il classificatore;
+* 'matplolib' tramite il comando da terminale ``` pip install -U matplotlib``` per il classificatore;
 
 
 [Torna all'inizio](#Indice)
@@ -57,7 +59,8 @@ Se avviato correttammente da questo momento in poi si potranno utilizzare i segu
 
 * ```Inserisci nuovo Film``` - comando che viene suggerito dal banner iniziale, e che se invocato permette di inserire i dati di un nuovo film che dovrà essere inserito nel negozio in modo tale da comprendere quale sarà il suo prezzo.
 * ```Suggerisci Film``` - comando che viene suggerito dal banner iniziale, e che se invocato permette di inserire i dati relativi ai gusti del cliente permettendo a FRAVIT di suggerire uno tra i film presenti nel dataset e che rispetteranno i gusti forniti.
-* ```esci``` - comando per terminare l'applicazione.
+* ```Insirisci Film in una sezione``` - comando che viene suggerito dal banner iniziale, e che permette di inserire i dati relativi al film/serieTV di cui si vuole comprendere la sezione e si otterrà la sezione nella quale quel determinato film/serieTV deve essere posto.
+* ```Esci``` - comando per terminare l'applicazione.
 
 Una volta terminato correttamente il programma, verrà visualizzato a linea di comando il seguente messaggio:
 
@@ -71,7 +74,15 @@ In seguito, l'applicazione verrà chiusa.
  
 Vengono gestiti tutti i casi in cui l'utente inserisce un input errato!
 
-Di seguito un esempio di interazione con il sistema : 
+Di seguito un esempio di interazione con il sistema nel caso si voglia comprendere il prezzo di un nuovo film/serieTV: 
+
+<center><img src = "photo/Esempio_interazione.png"></center>
+
+Di seguito un esempio di interazione con il sistema nel caso si voglia suggerire film/serieTV:
+
+<center><img src = "photo/Esempio_interazione.png"></center>
+
+Di seguito un esempio di interazione con il sistema nel caso si voglia inserire un nuovo film/serieTV in una sezione:
 
 <center><img src = "photo/Esempio_interazione.png"></center>
 
@@ -89,7 +100,14 @@ Nel nostro applicativo software si è scelto di utilizzare:
 * Una [rete neurale](https://it.wikipedia.org/wiki/Rete_neurale_artificiale) in grado di predire il prezzo di un nuovo film/serieTV in base alle informazioni che gli verranno fornite. Per predire il prezzo analizzerà il voto ricevuto, l'anno di pubblicazione e la durata del film/serie TV.
 * Un [K-nearest_neighbors](https://it.wikipedia.org/wiki/K-nearest_neighbors) in grado di suggerire un determinato film o una serieTV al cliente in base alle informazioni fornite in input che rappresenteranno le proprietà del film che si vorrà vedere.
 Verrà richiesto il genere di film che si intende vedere,il periodo cinematografico che si preferisce vedere ed i livelli di humor,tensione,ritmo,erotismo,impegno richiesti.
-* Un [albero di decisione](https://it.wikipedia.org/wiki/Albero_di_decisione)
+* Un [albero di decisione](https://it.wikipedia.org/wiki/Albero_di_decisione) in grado di far comprendere in quale sezione del negozio dovrà essere posto un determinato film o una serie TV, in base alle caratteristiche inserite in input.
+  - sezione 1 --> film o serie TV con maggior *humor*.
+  - sezione 2 --> film o serie TV con maggior *ritmo*.
+  - sezione 3 --> film o serie TV con maggior *impegno*.
+  - sezione 4 --> film o serie TV con maggior *tensione*.
+  - sezione 5 --> film o serie TV con maggior *erotismo*.
+* [Precision e Recall](https://it.wikipedia.org/wiki/Precisione_e_recupero) come metriche di valutazione del sistema con l'utilizzo di una matrice di confusione.
+<center><img src = "photo/ConfusionMatrix.png"></center>
 
 ### **Base di Conoscenza**
 
