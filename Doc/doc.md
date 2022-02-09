@@ -32,7 +32,6 @@ Sono state effettuate delle modifiche a tale dataset come l'inserimento delle co
 "anno_completo","genere_convertito" utilizzate per fornire degli esempi di prezzi dei film presenti nel dataset e per 
 effettuare il suggerimento del film al cliente.
 
-
 [Torna all'inizio](#Indice)
 
 ## **Requisiti funzionali**
@@ -44,6 +43,7 @@ Per avviare correttamente il programma è necessario installare:
 * 'sklearn.tree' tramite il comando da terminale ```pip install scikit-learn``` per il classificatore;
 * 'matplolib' tramite il comando da terminale ``` pip install -U matplotlib``` per il classificatore;
 
+Tutte le librerire utilizzate sono visualizzabili nel file *requirements.txt* presente all'interno del progetto.
 
 [Torna all'inizio](#Indice)
 
@@ -60,10 +60,10 @@ Se avviato correttammente da questo momento in poi si potranno utilizzare i segu
 * ```Predici Prezzo``` - comando che viene suggerito dal banner iniziale, e che se invocato permette di inserire i dati di un nuovo film che dovrà essere inserito nel negozio in modo tale da comprendere quale sarà il suo prezzo.
 * ```Suggerisci Film``` - comando che viene suggerito dal banner iniziale, e che se invocato permette di inserire i dati relativi ai gusti del cliente permettendo a FRAVIT di suggerire uno tra i film presenti nel dataset e che rispetteranno i gusti forniti.
 * ```Trova Sezione Negozio``` - comando che viene suggerito dal banner iniziale, e che permette di inserire i dati relativi al film/serieTV di cui si vuole comprendere la sezione e si otterrà la sezione nella quale quel determinato film/serieTV deve essere posto.
+* ```Precision,Recall,Mae,Accuratezza``` - comando che viene suggerito dal banner iniziale, e che permette di visionare i dati relativi alla precision, alla recall ed al Mae sul train/test.
 * ```Esci``` - comando per terminare l'applicazione.
-* ```Precision,Recall,Mae``` - comando che viene suggerito dal banner iniziale, e che permette di visionare i dati relativi alla precision, alla recall ed al Mae sul train/test.
 
-Inserendo il comando Precision,Recall,Mae verrà visualizzata la seguente schermata:
+Inserendo il comando Precision,Recall,Mae,Accuratezza verrà visualizzata la seguente schermata:
 
 <center><img src = "photo/SchermataPRM.png"></center>
 
@@ -97,7 +97,7 @@ Di seguito un esempio di interazione con il sistema nel caso si voglia comprende
 
 Nel nostro applicativo software si è scelto di utilizzare:
 
-* Una [base di conoscenza](https://it.wikipedia.org/wiki/Base_di_conoscenza), contente più di 207408 tra Film e SerieTv alla quale però sono state aggiunte informazioni necessarie per l'utilizzo dell'applicazione come:
+* Una [base di conoscenza](https://it.wikipedia.org/wiki/Base_di_conoscenza), contente più di 50.000 tra Film e SerieTv alla quale però sono state aggiunte informazioni necessarie per l'utilizzo dell'applicazione come:
   - ```genere_convertito``` utilizzato per la conversione del genere di un film/serie TV in valori numerici utili agli scopi progettuali (da 1 a 27)
   - ```voto_completo``` utilizzato per rappresentare il voto fornito dall'utente in un valore numerico utile agli scopi progettuali (da 1 a 4)
   - ```durata_completa``` utilizzata per rappresentare la durata del film/serie TV con dei valori numerici utili agli scopi progettuali (da 1 a 3)
@@ -110,7 +110,8 @@ Verrà richiesto il genere di film che si intende vedere,il periodo cinematograf
   - sezione 2 --> film o serie TV con maggior *ritmo*.
   - sezione 3 --> film o serie TV con maggior *impegno*.
   - sezione 4 --> film o serie TV con maggior *tensione*.
-  - sezione 5 --> film o serie TV con maggior *erotismo*.
+    
+* [K-fold cross-validation](https://it.wikipedia.org/wiki/Convalida_incrociata) come tecnica per valutare l'accuratezza della sistema.
 * [Precision e Recall](https://it.wikipedia.org/wiki/Precisione_e_recupero) come metriche di valutazione del sistema con l'utilizzo di una matrice di confusione.
 <center><img src = "photo/ConfusionMatrix.png"></center>
 
@@ -139,16 +140,10 @@ Dataset contenente informazioni relativi ai film e serie TV usciti durante gli a
 Il programma è stato dotato di una funzione che sfrutta un classificatore per determinare il prezzo a cui apparterrà un determinato film o una serie TV inseriti in input.
 Abbiamo utilizzato un [file CSV](https://it.wikipedia.org/wiki/Comma-separated_values) per addestrare il nostro classificatore. Le informazioni che l'utente deve inserire sono:
 
-* ```Titolo originale```;
-* ```Titolo in italiano```;
-* ```Anno```;
-* ```Genere```;
-* ```Durata```;
-* ```Voto```;
-* ```Humor```;
-* ```Ritmo```;
-* ```Impegno```;
-* ```Tensione```;
+* ```Anno```: ovvero l'anno di pubblicazione del film o della serie TV;
+* ```Durata```: ovvero la durata del film o della serie TV espressa in minuti.
+* ```Voto```: ovvero il voto della critica a tale film o serie TV.
+
 
 Ad ogni campo sono stati associati i seguenti valori:
 
@@ -271,7 +266,7 @@ Predizione prezzo in base a degli esempi di valori inseriti in input:
 
 ### **Albero di decisione**
 Nel nostro applicativo è stata implementata una funzione che sfrutta il DecisionTreeClassifier. 
-Questo è in grado di suddividere un film o una serie TV in una determinata sezione presente all'interno del negozio, in base a delle caratteristiche del film/serie TV inseriti in input.
+Questo è in grado di suddividere un film o una serie TV in una determinata sezione presente all'interno del negozio, in base a delle caratteristiche del film/serie TV inserite in input.
 I dati che vengono utilizzati sono:
 * Livello di ```Humor``` del film o serie TV ;
 * Livello di ```Ritmo``` del film o serie TV ;
@@ -322,7 +317,7 @@ Rigraziamo per l'attenzione.
 
 <center>
 
-Lo staff, **[FRAVIT]**
+Gli studenti, **[FRAVIT]**
 
 </center>
 
