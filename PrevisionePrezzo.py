@@ -4,6 +4,8 @@ from sklearn.metrics import mean_absolute_error
 import matplotlib.pyplot as plt
 import scikitplot as sklpt
 from sklearn.neural_network._multilayer_perceptron import MLPClassifier
+from sklearn.model_selection import KFold
+from sklearn.model_selection import cross_val_score
 
 
 class PrevisionePrezzo:
@@ -13,6 +15,7 @@ class PrevisionePrezzo:
     maeTEST=0
     precisione=0
     richiamo=0
+    accuratezza=0
 
     def __init__(self):
         y = self.film.prezzo
@@ -33,6 +36,11 @@ class PrevisionePrezzo:
         mae_test = mean_absolute_error(y_test, p_test)
         self.maeTEST=mae_test
         self.maeTRAIN=mae_train
+
+        k=10
+        kf =KFold(n_splits=k,random_state=None)
+        result=cross_val_score(self.model,x,y,cv=kf,n_jobs=-1)
+        self.accuratezza=result
 
 
     @classmethod
@@ -76,13 +84,14 @@ class PrevisionePrezzo:
 
 
     @classmethod
-    def datiPredizioni(cls,precision,recall,mae_test,mae_train):
+    def datiPredizioni(cls,precision,recall,mae_test,mae_train,accuratezza):
 
         print("\n\n\n+------------------------------------------------------------------+")
         print("+                      DATI SULLE PREDIZIONI                       +")
         print("+------------------------------------------------------------------+")
         print("+ Precision : ",precision)
         print("+ Recall : ", recall)
+        print(f"+ Accuratezza : {format(accuratezza.mean())}")
         print('+ MAE sul test set :', mae_test)
         print('+ MAE sul train set :', mae_train)
         print("+------------------------------------------------------------------+\n\n")

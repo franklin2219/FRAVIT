@@ -17,7 +17,7 @@ if __name__ == '__main__':
     print("|                    2) Suggerisci film                            |")
     print("|                    3) Trova Sezione Negozio                      |")
     print("|                    4) Esci                                       |")
-    print("|                    5) Precision,Recall,Mae                       |")
+    print("|                    5) Precision,Recall,Mae,Accuratezza           |")
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
     while scelta != '1' and scelta != '2' and scelta != '3' and scelta != '4' and scelta != '5':
@@ -36,6 +36,6 @@ if __name__ == '__main__':
         print("A PRESTO!")
         sys.exit()
     if scelta == '5':
-        prezzo.datiPredizioni(prezzo.precisione,prezzo.richiamo,prezzo.maeTRAIN,prezzo.maeTEST)
+        prezzo.datiPredizioni(prezzo.precisione,prezzo.richiamo,prezzo.maeTRAIN,prezzo.maeTEST,prezzo.accuratezza)
 
 pass
