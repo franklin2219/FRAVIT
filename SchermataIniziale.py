@@ -1,41 +1,43 @@
-from User import Utente
+from Film import Film
 import sys
 from PrevisionePrezzo import PrevisionePrezzo
 from SuggerimentoFilm import SuggerisciFilm
 from SceltaSezioni import ScegliSezioni
 
 if __name__ == '__main__':
-    utente1 = Utente()
+    film = Film()
     prezzo = PrevisionePrezzo()
     predicisezione = ScegliSezioni()
-    scelta = 0
+    scelta = -1
+    while scelta != 5:
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        print("|                    GESTORE FILM E SERIE TV                       |")
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        print("|                    1) Predici Prezzo                             |")
+        print("|                    2) Suggerisci film                            |")
+        print("|                    3) Trova Sezione Negozio                      |")
+        print("|                    4) Precision,Recall,Mae,Accuratezza           |")
+        print("|                    5) Esci                                       |")
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
-    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-    print("|                    GESTORE FILM E SERIE TV                       |")
-    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-    print("|                    1) Predici Prezzo                             |")
-    print("|                    2) Suggerisci film                            |")
-    print("|                    3) Trova Sezione Negozio                      |")
-    print("|                    4) Esci                                       |")
-    print("|                    5) Precision,Recall,Mae,Accuratezza           |")
-    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        while scelta != '1' and scelta != '2' and scelta != '3' and scelta != '4' and scelta != '5':
+            scelta = input("Inserisci il numero dell'operazione da effettuare :")
 
-    while scelta != '1' and scelta != '2' and scelta != '3' and scelta != '4' and scelta != '5':
-        scelta = input("Inserisci il numero dell'operazione da effettuare : ")
-
-    if scelta == '1':
-        utente1.inseriscifilm()
-        prezzo.prediciprezzo(utente1)
-    if scelta == '2':
-        utente1.richiestafilm()
-        suggerimento = SuggerisciFilm(utente1)
-    if scelta == '3':
-        utente1.inserisciinsezione()
-        predicisezione.inseriscivalori(utente1)
-    if scelta == '4':
-        print("A PRESTO!")
-        sys.exit()
-    if scelta == '5':
-        prezzo.datiPredizioni(prezzo.precisione,prezzo.richiamo,prezzo.maeTRAIN,prezzo.maeTEST,prezzo.accuratezza)
-
+        if scelta == '1':
+            film.inseriscifilm()
+            prezzo.prediciprezzo(film)
+        if scelta == '2':
+            film.richiestafilm()
+            suggerimento = SuggerisciFilm(film)
+        if scelta == '3':
+            film.inserisciinsezione()
+            predicisezione.inseriscivalori(film)
+        if scelta == '4':
+            prezzo.datiPredizioni(prezzo.precisione, prezzo.richiamo, prezzo.maeTRAIN, prezzo.maeTEST,
+                                  prezzo.accuratezza)
+        if scelta == '5':
+            print("A PRESTO!")
+            sys.exit()
+        scelta = -1
+        film.resettavalori()
 pass

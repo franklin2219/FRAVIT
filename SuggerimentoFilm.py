@@ -18,4 +18,4 @@ class SuggerisciFilm:
                                     "genere_convertito": [filminserito.genere_numerico],
                                     "anno_completo": [filminserito.peso_anno]})
         pred_y = model.predict(pred_x)
-        print("Il film che ti suggeriamo e': ", pred_y)
+        print("Il film che ti suggeriamo e':", pred_y)

@@ -49,7 +49,7 @@ class PrevisionePrezzo:
                                     "anno_completo": [filminserito.peso_anno],
                                     "durata_completa": [filminserito.peso_durata]})
         pred_y = cls.model.predict(pred_x)
-        print("Il prezzo per il film e' di : ", pred_y, "euro")
+        print("Il prezzo per il film e' di :", int(pred_y), "euro")
 
     @classmethod
     def calc_precision_recall(cls, y_true, y_pred):
@@ -84,7 +84,7 @@ class PrevisionePrezzo:
 
 
     @classmethod
-    def datiPredizioni(cls,precision,recall,mae_test,mae_train,accuratezza):
+    def datiPredizioni(cls, precision, recall, mae_test, mae_train, accuratezza):
 
         print("\n\n\n+------------------------------------------------------------------+")
         print("+                      DATI SULLE PREDIZIONI                       +")

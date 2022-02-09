@@ -1,6 +1,4 @@
-class Utente:
-    titolo = ""
-    titolo_italiano = ""
+class Film:
     anno = 0
     genere = ""
     durata = 0
@@ -16,16 +14,12 @@ class Utente:
 
     @classmethod
     def inseriscifilm(cls):
-        cls.titolo = input(f"Inserisci il titolo originale del film/serieTV :")
-        cls.titolo_italiano = input(f"Inserisci il titolo tradotto in italiano :")
         while cls.anno <= 1885 or cls.anno >= 2023:
             cls.anno = int(input("Inserisci l'anno di pubblicazione del film/serieTV :"))
-        cls.genere = input(f"Inserisci il genere del film/serieTV :")
         while cls.durata > 240 or cls.durata < 1:
             cls.durata = int(input("Definisci la durata del film/serieTV :"))
         while cls.voto < 1 or cls.voto > 10:
             cls.voto = int(input("Inserisci il voto (un numero da 1 a 10) :"))
-        cls.inserisciinsezione()
 
         if cls.anno >= 2021:
             cls.peso_anno = 4
@@ -108,3 +102,18 @@ class Utente:
             cls.impegno = int(input("Inserisci il valore il livello di impegno tra 0 a 5 :"))
         while cls.tensione < 0 or cls.tensione > 5:
             cls.tensione = int(input("Inserisci il valore il livello di tensione tra 0 a 5 :"))
+
+    @classmethod
+    def resettavalori(cls):
+        cls.anno = 0
+        cls.genere = ""
+        cls.durata = 0
+        cls.voto = 0
+        cls.humor = -1
+        cls.ritmo = -1
+        cls.impegno = -1
+        cls.tensione = -1
+        cls.peso_anno = 0
+        cls.peso_voto = 0
+        cls.peso_durata = 0
+        cls.genere_numerico = 0
