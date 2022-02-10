@@ -16,8 +16,13 @@ Questo documento ha il compito di illustrare l’utilizzo della prima versione d
 
 L'applicativo software è stato sviluppato dal gruppo composto da: 
 
-* **[Francesco Sasso](https://github.com/franklin2219)** (Matricola: 715742)
-* **[Vito Musco](https://github.com/VitoMusco)** (Matricola: 724569)
+* **[Francesco Sasso](https://github.com/franklin2219)** 
+  - Matricola: 715742
+  - Mail istituzionale: f.sasso16@studenti.uniba.it
+* **[Vito Musco](https://github.com/VitoMusco)** 
+  - Matricola: 724569
+  - Mail Istituzionale: v.musco1@studenti.uniba.it
+* **Repository progetto** : https://github.com/franklin2219/FRAVIT  
 
 Il nome dell'applicativo sono le iniziali del nome dei membri del gruppo.
 
@@ -55,12 +60,12 @@ Quando il programma sarà avviato verrà visualizzato la schermata principale a 
 
 <center><img src = "photo/Schermata_principale.png"></center>
 
-Se avviato correttammente da questo momento in poi si potranno utilizzare i seguenti comandi:
+Se avviato correttamente da questo momento in poi si potranno utilizzare i seguenti comandi:
 
 * ```Predici Prezzo``` - comando che viene suggerito dal banner iniziale, e che se invocato permette di inserire i dati di un nuovo film che dovrà essere inserito nel negozio in modo tale da comprendere quale sarà il suo prezzo.
 * ```Suggerisci Film``` - comando che viene suggerito dal banner iniziale, e che se invocato permette di inserire i dati relativi ai gusti del cliente permettendo a FRAVIT di suggerire uno tra i film presenti nel dataset e che rispetteranno i gusti forniti.
 * ```Trova Sezione Negozio``` - comando che viene suggerito dal banner iniziale, e che permette di inserire i dati relativi al film/serieTV di cui si vuole comprendere la sezione e si otterrà la sezione nella quale quel determinato film/serieTV deve essere posto.
-* ```Precision,Recall,Mae,Accuratezza``` - comando che viene suggerito dal banner iniziale, e che permette di visionare i dati relativi alla precision, alla recall ed al Mae sul train/test.
+* ```Precision,Recall,Mae,Accuratezza``` - comando che viene suggerito dal banner iniziale, e che permette di visionare i dati relativi alla precision, alla recall,al Mae ed all'accuratezza sul train/test effettuato nella rete neurale.
 * ```Esci``` - comando per terminare l'applicazione.
 
 Inserendo il comando Precision,Recall,Mae,Accuratezza verrà visualizzata la seguente schermata:
@@ -99,9 +104,9 @@ Nel nostro applicativo software si è scelto di utilizzare:
 
 * Una [base di conoscenza](https://it.wikipedia.org/wiki/Base_di_conoscenza), contente più di 50.000 tra Film e SerieTv alla quale però sono state aggiunte informazioni necessarie per l'utilizzo dell'applicazione come:
   - ```genere_convertito``` utilizzato per la conversione del genere di un film/serie TV in valori numerici utili agli scopi progettuali (da 1 a 27)
-  - ```voto_completo``` utilizzato per rappresentare il voto fornito dall'utente in un valore numerico utile agli scopi progettuali (da 1 a 4)
-  - ```durata_completa``` utilizzata per rappresentare la durata del film/serie TV con dei valori numerici utili agli scopi progettuali (da 1 a 3)
-  - ```anno_completo``` utilizzato per rappresentare l'anno di pubblicazione del film/serie TV con dei valori numerici utili agli scopi progettuali (da 1 a 4)
+  - ```voto_convertito``` utilizzato per rappresentare il voto fornito dall'utente in un valore numerico utile agli scopi progettuali (da 1 a 4)
+  - ```durata_convertita``` utilizzata per rappresentare la durata del film/serie TV con dei valori numerici utili agli scopi progettuali (da 1 a 3)
+  - ```anno_convertito``` utilizzato per rappresentare l'anno di pubblicazione del film/serie TV con dei valori numerici utili agli scopi progettuali (da 1 a 4)
 * Una [rete neurale](https://it.wikipedia.org/wiki/Rete_neurale_artificiale) in grado di predire il prezzo di un nuovo film/serieTV in base alle informazioni che gli verranno fornite. Per predire il prezzo analizzerà il voto ricevuto, l'anno di pubblicazione e la durata del film/serie TV.
 * Un [K-nearest_neighbors](https://it.wikipedia.org/wiki/K-nearest_neighbors) in grado di suggerire un determinato film o una serieTV al cliente in base alle informazioni fornite in input che rappresenteranno le proprietà del film che si vorrà vedere.
 Verrà richiesto il genere di film che si intende vedere,il periodo cinematografico che si preferisce vedere ed i livelli di humor,tensione,ritmo,erotismo,impegno richiesti.
@@ -129,9 +134,9 @@ Dataset contenente informazioni relativi ai film e serie TV usciti durante gli a
 - impegno;
 - tensione;
 - prezzo;
-- anno_completo;
-- durata_completa;
-- voto_completo;
+- anno_convertito;
+- durata_convertita;
+- voto_convertito;
 - genere_convertito;
 - sezione
 
@@ -238,7 +243,6 @@ all'utente otterrà abbastanza dati per poter effettuare il suggerimento. In bas
 * Livello di ```Humor``` del film o serie TV che si desidera guardare;
 * Livello di ```Ritmo``` del film o serie TV che si desidera guardare;
 * Livello di ```Impegno``` del film o serie TV che si desidera guardare;
-* Livello di ```Erotismo``` del film o serie TV che si desidera guardare;
 * Livello di ```Tensione``` del film o serie TV che si desidera guardare; 
   
 Il risultato della funzione ```Suggerisci nuovo film ``` sarà un determinato film o serie TV in base agli input forniti.
@@ -271,7 +275,6 @@ I dati che vengono utilizzati sono:
 * Livello di ```Humor``` del film o serie TV ;
 * Livello di ```Ritmo``` del film o serie TV ;
 * Livello di ```Impegno``` del film o serie TV ;
-* Livello di ```Erotismo``` del film o serie TV ;
 * Livello di ```Tensione``` del film o serie TV ;
 
 **ESEMPIO SUGGERIMENTO FILM/SERIE TV**:
