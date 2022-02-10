@@ -19,7 +19,7 @@ class PrevisionePrezzo:
 
     def __init__(self):
         y = self.film.prezzo
-        x = self.film[["voto_completo", "anno_completo", "durata_completa"]]
+        x = self.film[["voto_convertito", "anno_convertito", "durata_convertita"]]
         y = y.astype('int')
         x = x.astype('int')
 
@@ -45,9 +45,9 @@ class PrevisionePrezzo:
 
     @classmethod
     def prediciprezzo(cls, filminserito):
-        pred_x = pd.DataFrame(data={"voto_completo": [filminserito.peso_voto],
-                                    "anno_completo": [filminserito.peso_anno],
-                                    "durata_completa": [filminserito.peso_durata]})
+        pred_x = pd.DataFrame(data={"voto_convertito": [filminserito.peso_voto],
+                                    "anno_convertito": [filminserito.peso_anno],
+                                    "durata_convertita": [filminserito.peso_durata]})
         pred_y = cls.model.predict(pred_x)
         print("Il prezzo per il film e' di :", int(pred_y), "euro")
 
