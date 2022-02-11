@@ -278,7 +278,7 @@ I dati che vengono utilizzati sono:
 * Livello di ```Impegno``` del film o serie TV ;
 * Livello di ```Tensione``` del film o serie TV ;
 
-**ESEMPIO SUGGERIMENTO FILM/SERIE TV**:
+**ESEMPIO SEZIONE FILM/SERIE TV**:
 <center><img src = "photo/Sezione.png"></center>
 
 ## **Implementazioni future**
