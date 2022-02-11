@@ -27,7 +27,7 @@ L'applicativo software è stato sviluppato dal gruppo composto da:
 Il nome dell'applicativo sono le iniziali del nome dei membri del gruppo.
 
 L'assistente virtuale intelligente **FRAVIT** nasce con lo scopo di aiutare i negozi locali che si occupano della vendita
-di film e serie TV in DVD, nel comprendere quale debba essere il prezzo, nel suggerire un determinato film o una serire TV
+di film e serie TV in DVD, nel comprendere quale debba essere il prezzo, nel suggerire un determinato film o una serie TV
 ai clienti che ne fanno richiesta e nel comprendere in quale sezione del negozio un nuovo film o serie TV debba essere posizionato.
 (Suddivisi in base alle caratteristiche del film o della serie TV)
 
