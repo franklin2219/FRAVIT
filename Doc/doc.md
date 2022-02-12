@@ -43,10 +43,10 @@ effettuare il suggerimento del film al cliente.
 
 Per avviare correttamente il programma è necessario installare:
 
-* 'numpy' tramite il comando da terminale ```pip install numpy``` per la predizione;
-* 'pandas' tramite il comando da terminale ```pip install pandas``` per il classificatore;
+* 'numpy' tramite il comando da terminale ```pip install numpy```;
+* 'pandas' tramite il comando da terminale ```pip install pandas```;
 * 'sklearn' tramite il comando da terminale ```pip install scikit-learn``` per implementare i classificatori utilizzati;
-* 'matplolib' tramite il comando da terminale ``` pip install -U matplotlib``` per il classificatore;
+* 'matplolib' tramite il comando da terminale ``` pip install -U matplotlib```;
 
 Inoltre, tutte le librerie utilizzate sono visualizzabili nel file *requirements.txt* presente all'interno del progetto.
 
@@ -102,7 +102,7 @@ Di seguito un esempio di interazione con il sistema nel caso si voglia comprende
 
 Nel nostro applicativo software si è scelto di utilizzare:
 
-* Una [base di conoscenza](https://it.wikipedia.org/wiki/Base_di_conoscenza), contente più di 30.000 tra Film e Serie Tv alla quale però sono state aggiunte informazioni necessarie per l'utilizzo dell'applicazione come:
+* Una [Dataset](https://it.wikipedia.org/wiki/Dataset), contenente più di 30.000 tra Film e Serie Tv alla quale però sono state aggiunte informazioni necessarie per l'utilizzo dell'applicazione come:
   - ```genere_convertito``` utilizzato per la conversione del genere di un film/serie TV in valori numerici utili agli scopi progettuali (da 1 a 27)
   - ```voto_convertito``` utilizzato per rappresentare il voto fornito dall'utente in un valore numerico utile agli scopi progettuali (da 1 a 4)
   - ```durata_convertita``` utilizzata per rappresentare la durata del film/serie TV con dei valori numerici utili agli scopi progettuali (da 1 a 3)
@@ -120,7 +120,7 @@ Verrà richiesto il genere di film che si intende vedere,il periodo cinematograf
 * [Precision e Recall](https://it.wikipedia.org/wiki/Precisione_e_recupero) come metriche di valutazione del sistema con l'utilizzo di una ConfusionMatrix.
 <center><img src = "photo/ConfusionMatrix.png"></center>
 
-### **Base di Conoscenza**
+### **Dataset**
 
 Dataset contenente informazioni relativi ai film e serie TV usciti durante gli anni. Contenente le seguenti colonne:
 - filmtv_id;
@@ -141,6 +141,7 @@ Dataset contenente informazioni relativi ai film e serie TV usciti durante gli a
 - genere_convertito;
 - sezione
 
+<center><img src = "photo/Dataset.png"></center>
 ### **Rete Neurale**
 
 Il programma è stato dotato di una funzione che sfrutta un classificatore ([MLPclassifier](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)) per determinare il prezzo a cui apparterrà un determinato film o una serie TV inseriti in input.
@@ -315,13 +316,15 @@ La seconda è stata scelta poichè era il mezzo di comunicazione più immediato.
 
 ## **Conclusioni**
 
-Come detto in precedenza, riteniamo che questo progetto sia stato un banco di prova. Nonostante le difficoltà riscontrate siamo riusciti comunque a rispettare gli obiettivi stabiliti e a trarre il meglio da questa esperienza formativa.
+Riteniamo che questo progetto sia stato un buon banco di prova. Nonostante le difficoltà riscontrate siamo riusciti comunque a rispettare gli obiettivi stabiliti e a trarre il meglio da questa esperienza formativa.
 
-Rigraziamo per l'attenzione. 
+
+Grazie per l'attenzione. 
 
 <center>
 
-Gli studenti, **[FRAVIT](https://github.com/franklin2219/FRAVIT)**
+Gli studenti: Francesco Sasso,Vito Musco
+Applicazione: **[FRAVIT](https://github.com/franklin2219/FRAVIT)**
 
 </center>
 
