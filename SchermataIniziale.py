@@ -39,7 +39,7 @@ if __name__ == '__main__':
             prezzo.datiPredizioni(prezzo.precisione, prezzo.richiamo, prezzo.maeTRAIN, prezzo.maeTEST,
                                   prezzo.accuratezza)
         if scelta == '5':
-            controllaConvenienza.convenienza(input("Inserisci il voto del film :"),input("Inserisci il prezzo del film :"))
+            controllaConvenienza.convenienza(input("Inserisci il voto del film : "),input("Inserisci il prezzo del film : "))
         if scelta == '6':
             print("A PRESTO!")
             sys.exit()

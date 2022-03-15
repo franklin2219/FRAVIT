@@ -9,3 +9,5 @@ class ControllaConvenienza:
 
         if(kb.query(pl.Expr(f"conviene(conviene,P)"))[0] == 'Yes'):
             print("Conviene!")
+        elif(kb.query(pl.Expr(f"conviene(conviene,P)"))[0] == 'No'):
+            print("Non conviene!")
