@@ -19,7 +19,7 @@ if __name__ == '__main__':
         print("|                    2) Suggerisci film                            |")
         print("|                    3) Trova Sezione Negozio                      |")
         print("|                    4) Precision,Recall,Mae,Accuratezza           |")
-        print("|                    5) Controlla se conviene prendere un film     |")
+        print("|                    5) Effettua query sui film in proiezione      |")
         print("|                    6) Esci                                       |")
         print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
@@ -39,7 +39,7 @@ if __name__ == '__main__':
             prezzo.datiPredizioni(prezzo.precisione, prezzo.richiamo, prezzo.maeTRAIN, prezzo.maeTEST,
                                   prezzo.accuratezza)
         if scelta == '5':
-            controllaConvenienza.convenienza(input("Inserisci il voto del film : "),input("Inserisci il prezzo del film : "))
+            controllaConvenienza.convenienza()
         if scelta == '6':
             print("A PRESTO!")
             sys.exit()
