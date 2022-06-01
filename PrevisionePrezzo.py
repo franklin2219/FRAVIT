@@ -41,7 +41,6 @@ class PrevisionePrezzo:
         kf =KFold(n_splits=k,random_state=None)
         result=cross_val_score(self.model,x,y,cv=kf,n_jobs=-1)
         self.accuratezza=result
-        
 
 
     @classmethod
@@ -88,7 +87,7 @@ class PrevisionePrezzo:
     def datiPredizioni(cls, precision, recall, mae_test, mae_train, accuratezza):
 
         print("\n\n\n+------------------------------------------------------------------+")
-        print("+                      DATI SULLE PREDIZIONI                       +")
+        print("+                      DATI SULLE PREDIZIONI SUGGERIMENTO             +")
         print("+------------------------------------------------------------------+")
         print("+ Precision : ",precision)
         print("+ Recall : ", recall)
