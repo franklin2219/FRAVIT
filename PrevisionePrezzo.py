@@ -3,13 +3,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 import matplotlib.pyplot as plt
 import scikitplot as sklpt
-from sklearn.neural_network._multilayer_perceptron import MLPClassifier
+#from sklearn.neural_network._multilayer_perceptron import MLPClassifier
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
-
+from sklearn.neighbors._classification import KNeighborsClassifier
 
 class PrevisionePrezzo:
-    model = MLPClassifier()
+    model = KNeighborsClassifier()
     film = pd.read_csv("dataset_completo.csv", delimiter=";")
     maeTRAIN=0
     maeTEST=0
@@ -41,6 +41,7 @@ class PrevisionePrezzo:
         kf =KFold(n_splits=k,random_state=None)
         result=cross_val_score(self.model,x,y,cv=kf,n_jobs=-1)
         self.accuratezza=result
+        
 
 
     @classmethod
