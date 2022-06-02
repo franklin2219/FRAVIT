@@ -87,7 +87,7 @@ class PrevisionePrezzo:
     def datiPredizioni(cls, precision, recall, mae_test, mae_train, accuratezza):
 
         print("\n\n\n+------------------------------------------------------------------+")
-        print("+                      DATI SULLE PREDIZIONI SUGGERIMENTO             +")
+        print("+                    DATI SULLE PREDIZIONI SUGGERIMENTO            +")
         print("+------------------------------------------------------------------+")
         print("+ Precision : ",precision)
         print("+ Recall : ", recall)

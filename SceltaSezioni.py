@@ -89,7 +89,7 @@ class ScegliSezioni:
     def datiPredizioni(cls, precision, recall, accuratezza):
 
         print("\n\n\n+------------------------------------------------------------------+")
-        print("+                      DATI SULLE PREDIZIONI SEZIONI                 +")
+        print("+                    DATI SULLE PREDIZIONI SEZIONI                 +")
         print("+------------------------------------------------------------------+")
         print("+ Precision : ",precision)
         print("+ Recall : ", recall)

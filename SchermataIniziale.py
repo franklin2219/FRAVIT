@@ -22,7 +22,6 @@ if __name__ == '__main__':
         print("|                    5) Effettua query sui film in proiezione      |")
         print("|                    6) Esci                                       |")
         print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        print("Accuratezza -> ", ScegliSezioni.accuratezza)
 
         while scelta != '1' and scelta != '2' and scelta != '3' and scelta != '4' and scelta != '5' and scelta != '6':
             scelta = input("Inserisci il numero dell'operazione da effettuare :")
@@ -39,7 +38,7 @@ if __name__ == '__main__':
         if scelta == '4':
             prezzo.datiPredizioni(prezzo.precisione, prezzo.richiamo, prezzo.maeTRAIN, prezzo.maeTEST,
                                   prezzo.accuratezza)
-            ScegliSezioni.datiPredizioni(ScegliSezioni.precisione,ScegliSezioni.richiamo,ScegliSezioni.accuratezza)
+            predicisezione.datiPredizioni(predicisezione.precisione,predicisezione.richiamo,predicisezione.accuratezza)
         if scelta == '5':
             controllaConvenienza.convenienza()
         if scelta == '6':
