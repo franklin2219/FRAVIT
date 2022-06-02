@@ -5,6 +5,7 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold
 
+
 class ScegliSezioni:
     film = pd.read_csv('dataset_completo.csv', delimiter=";")
     model = DecisionTreeClassifier()
@@ -22,7 +23,7 @@ class ScegliSezioni:
 
         x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=1)
 
-        self.model.fit(x_train, y_train)
+        self.model.fit(x_train,y_train)
 
         p_train = self.model.predict(x_train)
         p_test = self.model.predict(x_test)
@@ -41,7 +42,10 @@ class ScegliSezioni:
 
     @classmethod
     def inseriscivalori(cls, film):
-        pred_x = [[film.humor, film.ritmo, film.impegno, film.tensione]]
+        pred_x = pd.DataFrame(data={"humor": [film.humor],
+                                   "ritmo": [film.ritmo],
+                                   "impegno": [film.impegno],
+                                    "tensione":[film.tensione]})
         pred_y = cls.model.predict(pred_x)
         pred_y = int(pred_y)
         sezione = ""
