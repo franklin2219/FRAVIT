@@ -15,9 +15,9 @@ class Film:
     @classmethod
     def inseriscifilm(cls):
         while cls.anno <= 1885 or cls.anno >= 2023:
-            cls.anno = int(input("Inserisci l'anno di pubblicazione del film/serieTV :"))
+            cls.anno = int(input("Inserisci l'anno di pubblicazione del film:"))
         while cls.durata > 240 or cls.durata < 1:
-            cls.durata = int(input("Definisci la durata del film/serieTV :"))
+            cls.durata = int(input("Definisci la durata del film:"))
         while cls.voto < 1 or cls.voto > 10:
             cls.voto = int(input("Inserisci il voto (un numero da 1 a 10) :"))
 
@@ -80,7 +80,7 @@ class Film:
         print("+                  27)Cortometraggio                               +")
         print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
         while cls.genere_numerico <= 0 or cls.genere_numerico >= 28:
-            cls.genere_numerico = int(input("Inserisci il genere di Film/SerieTv che ti piacerebbe vedere :"))
+            cls.genere_numerico = int(input("Inserisci il genere di Film che ti piacerebbe vedere :"))
 
         cls.inserisciinsezione()
 

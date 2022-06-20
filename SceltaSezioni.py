@@ -57,7 +57,7 @@ class ScegliSezioni:
             sezione = "impegno"
         elif pred_y == 4:
             sezione = "tensione"
-        print("Il film o la serie TV dovranno esser riposti nella sezione :", sezione)
+        print("Il film dovra' essere riposto nella sezione :", sezione)
 
     @classmethod
     def calc_precision_recall(cls, y_true, y_pred):
